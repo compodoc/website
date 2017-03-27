@@ -9,49 +9,61 @@
     <link rel="stylesheet" href="../styles/guides.css">
     </head>
 
-    <body class="mdl-demo mdl-base">
-        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-            <div class="mdl-layout__container">
-                <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header is-upgraded" data-upgraded=",MaterialLayout">
+    <body>
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+            <header class="mdl-layout__header">
+                <div class="mdl-layout__header-row">
+                    <!-- Title -->
+                    <span class="mdl-layout-title">
+                            <a class="site-header mdl-navigation__link--title" href="/">
+                                <img src="../../assets/images/compodoc-vectorise-inverted.svg" alt="">
+                            </a>
+                        </span>
+                    <input type="checkbox" id="site-nav-checkbox" class="visuallyhidden">
+                    <div class="top-nav-wrapper">
+                        <label for="site-nav-checkbox">SITE MENU</label>
+                        <nav class="mdl-navigation">
 
-                    <div class="mdl-layout__container">
-                        <div class="mdl-demo mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header is-upgraded" data-upgraded=",MaterialLayout">
-                            <header class="mdl-layout__header is-casting-shadow">
-                                <div class="mdl-layout__header-row">
-                                    <span class="mdl-layout-title">
-                                    <a class="site-header mdl-navigation__link--title" href="/">
-                                        <img src="../../assets/images/logo.png" alt="">
-                                    </a>
-                                    </span>
-                                    <input type="checkbox" id="site-nav-checkbox" class="visuallyhidden">
-                                    <div class="top-nav-wrapper">
-                                        <label for="site-nav-checkbox">SITE MENU</label>
-                                        <nav class="mdl-navigation">
+                            <a class="mdl-navigation__link" href="/pages/guides/">Guides</a>
 
-                                            <a class="mdl-navigation__link" href="/pages/guides/">Guides</a>
+                            <a class="mdl-navigation__link" href="/pages/resources/">Resources</a>
 
-                                            <a class="mdl-navigation__link" href="/pages/resources/">Resources</a>
+                            <a class="mdl-navigation__link" href="https://github.com/rangle/augury/blob/dev/CHANGELOG.md">Change Log</a>
 
-                                            <a class="mdl-navigation__link" href="https://github.com/compodoc/compodoc/blob/master/CHANGELOG.md">Change Log</a>
-
-                                        </nav>
-                                        <div class="mdl-layout-spacer"></div>
-                                        <nav class="mdl-navigation">
-                                            <a class="mdl-navigation__link" href="https://chrome.google.com/webstore/detail/augury/elgalmkoelokbchhkhacckoklkejnhcd" onclick="trackOutboundLinkNav('https://chrome.google.com/webstore/detail/augury/elgalmkoelokbchhkhacckoklkejnhcd')"> Install </a>
-                                        </nav>
-                                    </div>
-                                </div>
-                            </header>
-
-
-                            <main class="mdl-layout__content">
-                                <%- yield %>
-                            </main>
-                        </div>
+                        </nav>
                     </div>
                 </div>
+            </header>
+            <div class="mdl-layout__drawer">
+                <span class="mdl-layout-title">Guides</span>
+                <nav class="mdl-navigation">
+                    <a class="mdl-navigation__link" href="">Getting started</a>
+                    <a class="mdl-navigation__link" href="">Features</a>
+                    <a class="mdl-navigation__link" href="">Demos</a>
+                    <a class="mdl-navigation__link" href="">Installation</a>
+                    <a class="mdl-navigation__link" href="">Usage</a>
+                    <a class="mdl-navigation__link" href="">Themes</a>
+                    <a class="mdl-navigation__link" href="">Comments</a>
+                    <a class="mdl-navigation__link" href="">Routing</a>
+                    <a class="mdl-navigation__link" href="">Tips and tricks</a>
+                </nav>
             </div>
+            <main class="mdl-layout__content">
+                <header class="hero-background">
+                    <section class="section mdl-grid mdl-grid--no-spacing">
+                        <div class="mdl-cell">
+                            <h4 class="mt1 page-title">Input Output Demo</h4>
+                        </div>
+                    </section>
+                </header>
+                <div class="page-content">
+                    <%- yield %>
+                </div>
+            </main>
         </div>
+
+
+        <script src="../vendors/material-design-lite/material.min.js"></script>
     </body>
 
     </html>
