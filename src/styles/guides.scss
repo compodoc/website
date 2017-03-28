@@ -37,6 +37,43 @@
     }
 }
 
+.selected {
+    background-color: #E0E0E0;
+    color: #235aaa!important;
+    font-weight: 600
+}
+
+.mdl-layout__drawer .mdl-navigation__link {
+    font-size: 13px;
+}
+
+.mdl-mega-footer--bottom-section,.mdl-mega-footer__bottom-section {
+    background-color: $primary-color;
+    bottom: 0;
+    color: white;
+    padding-top: 0;
+    right: 0
+}
+
+.mdl-mega-footer--bottom-section p {
+    text-align: center;
+    padding: 15px;
+    font-size: 12px;
+    margin: 0;
+}
+
+.mdl-mega-footer--bottom-section a {
+    color: white;
+}
+
+.mdl-layout__drawer-button {
+    display: none;
+}
+
+.mdl-layout__drawer .mdl-navigation {
+    padding-top: 0
+}
+
 @media (max-width: 1024px) {
     .mdl-layout__drawer-button {
         display: inline-block;
@@ -76,6 +113,12 @@
     margin-top: 8px;
 }
 
+.mdl-layout__drawer>.mdl-layout-title {
+    background-color: #ECEFF1;
+    font-weight: 500;
+    opacity: .87;
+    text-transform: uppercase
+}
 
 .mdl-layout__title,.mdl-layout-title {
     font-size: 16px;
@@ -84,8 +127,8 @@
 }
 
 .hero-background {
-    background: -webkit-linear-gradient(#173c71,#1a4c94);
-    background: linear-gradient(#173c71,#1a4c94);
+    background: -webkit-linear-gradient(#1e4b8e,#2a6ccc);
+    background: linear-gradient(#1e4b8e,#2a6ccc);
     color: rgb(255,255,255);
     margin-bottom: 60px
 }
@@ -105,8 +148,45 @@
 }
 
 .page-content {
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.markdown-doc h1 {
+    font-size: 24px;
+    font-weight: 500;
+    opacity: .87
+}
+
+.markdown-doc h2 {
+    font-size: 18px;
+    font-weight: 500;
+    opacity: .87
+}
+
+.markdown-doc p {
+    font-size: 16px;
+    line-height: 30px;
+    opacity: .87
+}
+
+.markdown-doc pre {
+    background: #f5f6f7;
+    border-left: 4px solid rgb(103,58,183);
+    border-radius: 4px;
+    margin-bottom: 30px;
+    padding: 30px 40px;
+    overflow-x: scroll
+}
+
+.markdown-doc pre,.markdown-doc code {
+    overflow-x: scroll;
+    background-color: #f5f6f7
+}
+
+.markdown-doc a {
+    color: rgb(103,58,183);
+    text-decoration: none
 }
 
 @media (max-width: 1024px) {
@@ -114,6 +194,10 @@
         font-size:20px;
         margin: 10px 0 10px 30px;
         padding-left: 24px
+    }
+
+    .site-header {
+        margin-left:32px
     }
 }
 

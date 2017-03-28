@@ -1,0 +1,13 @@
+{
+    "guides": [
+        "1-getting-started.html",
+        "2-features.html",
+        "3-demo.html",
+        "4-installation.html",
+        "5-usage.html",
+        "6-themes.html",
+        "7-comments.html",
+        "8-routing.html",
+        "9-tips-and-tricks.html"
+    ]
+}
