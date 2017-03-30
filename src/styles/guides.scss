@@ -53,7 +53,6 @@
     bottom: 0;
     color: white;
     padding-top: 0;
-    margin-top: 45px;
     right: 0;
 
     .badges {
@@ -137,7 +136,12 @@
     background: -webkit-linear-gradient(#1e4b8e,#2a6ccc);
     background: linear-gradient(#1e4b8e,#2a6ccc);
     color: rgb(255,255,255);
-    margin-bottom: 60px
+}
+
+.hero-background h4 {
+    font-weight: 300;
+    margin: 40px 0;
+    padding-left: 48px
 }
 
 .mdl-grid {
@@ -148,15 +152,16 @@
     width: auto
 }
 
-.hero-background h4 {
-    font-weight: 300;
-    margin: 40px 0;
-    padding-left: 48px
+.mdl-layout__content {
+    background: $primary-color;
 }
 
 .page-content {
     padding-left: 50px;
     padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 45px;
+    background: white;
 }
 
 .markdown-doc h1 {
@@ -193,6 +198,10 @@
 .markdown-doc a {
     color: $primary-color;
     text-decoration: none
+}
+
+.markdown-doc table td {
+    padding: 5px 10px;
 }
 
 @media (max-width: 1024px) {

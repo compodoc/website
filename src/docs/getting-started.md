@@ -1,6 +1,6 @@
 # What is Compodoc ?
 
-Compodoc is a documentation tool for Angular applications. It generates a static documentation website.
+Compodoc is a documentation tool for Angular applications. It generates a static documentation of your application.
 
 # Why Use Compodoc ?
 
@@ -18,4 +18,4 @@ Don't forget to read the [Contributing guide](https://github.com/compodoc/compod
 
 # Ready ? Go !
 
-Read the [installation](./installation.html) page for details on installation. The [usage]([./usage.html) helps you with all the options availables.
+Read the [installation](./installation.html) page for details on installation. The [usage]([./usage.html) helps you with all the options available.

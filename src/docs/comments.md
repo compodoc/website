@@ -1,3 +1,5 @@
+## General information
+
 Compodoc use Typescript AST parser and it's internal APIs, so the comments have to be JSDoc comments :
 
 ```js
@@ -20,7 +22,7 @@ These ones are not supported :
 // unsupported comment
 ```
 
-### JSDoc tags
+## JSDoc tags
 
 Currently Compodoc only support these JSDoc tags :
 
@@ -63,12 +65,12 @@ function processTarget(target:string):number;
 /**
  * Shows all events on a given day. Example usage:
  *
- * ```
+ * `` `
  * &lt;mwl-calendar-day-view
  *  [viewDate]="viewDate"
  *  [events]="events"&gt;
  * &lt;/mwl-calendar-day-view&gt;
- * ```
+ * `` `
  */
 
  /**

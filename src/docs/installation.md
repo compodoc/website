@@ -26,4 +26,4 @@ and run it like a normal npm script :
 npm run compodoc
 ```
 
-See [usage](./usage.html) for details.
+See [usage](./usage.html) for more details.

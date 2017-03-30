@@ -1,6 +1,6 @@
 * **Clean, simple design** — With Compodoc, the main endpoints are on the left side of your documentation, and all the content on the right side
 
-* **Beautiful themes** — 7 [themes](./themes.html) are available from famous documentation tools like [Gitbook](https://www.gitbook.com), [Read the Docs](https://readthedocs.org/) or projects like [Vagrant](https://www.vagrantup.com/docs/), [Laravel](https://laravel.com/docs/5.3), [Postmark](http://developer.postmarkapp.com/) and [Stripe](https://stripe.com/docs/api).
+* **Beautiful themes** — [7 themes](./themes.html) are available from famous documentation tools like [Gitbook](https://www.gitbook.com), [Read the Docs](https://readthedocs.org/) or projects like [Vagrant](https://www.vagrantup.com/docs/), [Laravel](https://laravel.com/docs/5.3), [Postmark](http://developer.postmarkapp.com/) and [Stripe](https://stripe.com/docs/api).
 
 * **Search** — Compodoc include a powerful search engine ([lunr.js](http://lunrjs.com/)) for easily finding your information
 

@@ -1,4 +1,4 @@
-### Styling the documentation
+## Styling the documentation
 ```
 compodoc -p src/tsconfig.json -y your_theme_styles/
 ```
@@ -23,11 +23,11 @@ Compodoc use [bootstrap](http://getbootstrap.com/) 3.3.7. You can customize Comp
     └── bootstrap.min.css // your bootstrap theme
 ```
 
-### Documentation of each component
+## Documentation of each component
 
-A comment description in xxx.component.ts file, between JSDoc comments can be a little short.
+A comment description in __xxx.component.ts__ file, between JSDoc comments can be a little short.
 
-Compodoc search for a default README.md file inside the root folder of each component, and add it inside a tab in the component page.
+Compodoc search for a default __README.md__ file inside the root folder of each component, and add it inside a tab in the component page.
 
 ```
 └── my-component/
