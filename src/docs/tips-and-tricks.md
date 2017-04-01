@@ -1,4 +1,4 @@
-## Styling the documentation
+# Styling the documentation
 ```
 compodoc -p src/tsconfig.json -y your_theme_styles/
 ```
@@ -23,7 +23,7 @@ Compodoc use [bootstrap](http://getbootstrap.com/) 3.3.7. You can customize Comp
     └── bootstrap.min.css // your bootstrap theme
 ```
 
-## Documentation of each component
+# Documentation of each component
 
 A comment description in __xxx.component.ts__ file, between JSDoc comments can be a little short.
 
@@ -38,7 +38,7 @@ Compodoc search for a default __README.md__ file inside the root folder of each 
     └── README.md
 ```
 
-## Additional documentation
+# Additional documentation
 
 Compodoc support the addition of external markdown files for extending the code comments of your application and the main README file.
 
@@ -68,7 +68,7 @@ summary.json
 
 Links are supported like regular markdown links.
 
-## Syntax highlighting in markdown files
+# Syntax highlighting in markdown files
 
 Compodoc use [Marked](https://github.com/chjj/marked) for markdown parsing and compiling to html. [prismjs.js](http://prismjs.com/) has been added for supporting syntax highlighting.
 
@@ -76,6 +76,6 @@ Just use a normal code block in your markdown with correct language : [Github he
 
 The integrated languages are : __json, bash, javascript, markdown, html, typescript__
 
-## Excluding files
+# Excluding files
 
 For excluding files from the documentation, simply use the __exports__ property of [__tsconfig.json__](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) file.

@@ -10,7 +10,7 @@ var replaceAll = function(str, find, replace) {
 
 // cleanSideNavEntry :: String -> String
 var cleanSideNavEntry = function(str) {
-    var removeNumber = str.slice(1);
+    var removeNumber = str.slice(str.indexOf('-'));
     var removeExt = removeNumber.replace('.html', ' ');
     var replaceDashes = replaceAll(removeExt, '-', ' ');
     var entry = replaceDashes.trim();
@@ -19,7 +19,7 @@ var cleanSideNavEntry = function(str) {
 
 // generateUrlFromFilename :: String -> String
 var generateUrlFromFilename = function(str) {
-    return str.slice(1).replace('-', '');
+    return str.slice(str.indexOf('-')).replace('-', '');
 }
 
 // isSideNavEntrySelected :: String -> Number -> String
@@ -28,7 +28,7 @@ var generateUrlFromFilename = function(str) {
 var isSideNavEntrySelected = function(entry, i) {
     var currentEntry = current.path[current.path.length - 1];
     var entryNoExt = entry.replace('.html', '');
-    var entryNoNumber = entryNoExt.slice(2);
+    var entryNoNumber = entryNoExt.slice(3);
     var isIndex = ((currentEntry === 'index') && (i === 0)); // case where no doc was selected, then select first entry
     var isSelected = (currentEntry === entryNoNumber) || isIndex;
     return isSelected ? 'selected' : '';

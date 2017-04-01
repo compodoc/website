@@ -26,3 +26,37 @@ compodoc <src> [options]
 | __ --disableGraph __ | Disable rendering of the dependency graph
 | __ --disableCoverage __ | Do not add the documentation coverage report
 | __ --disablePrivateOrInternalSupport __ | Do not show private or @internal in generated documentation
+
+# Render documentation
+
+Documentation is generated in default output folder, then run your HTTP server in that folder.
+
+```bash
+compodoc -p src/tsconfig.json
+```
+
+# Render documentation while providing source folder
+
+```bash
+compodoc src -p src/tsconfig.json
+```
+
+# Serve generated documentation with compodoc
+
+Documentation was generated in default output folder or a specific one, the local HTTP server is launched at http://localhost:8080
+
+```bash
+compodoc -s
+
+or
+
+compodoc -s -d ./doc
+```
+
+# Render documentation, and serve it with compodoc
+
+Documentation is generated in default output folder, and a local HTTP server is available at http://localhost:8080
+
+```bash
+compodoc -p src/tsconfig.json -s
+```

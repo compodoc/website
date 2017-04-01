@@ -1,4 +1,4 @@
-## General information
+# General information
 
 Compodoc use Typescript AST parser and it's internal APIs, so the comments have to be JSDoc comments :
 
@@ -22,7 +22,7 @@ These ones are not supported :
 // unsupported comment
 ```
 
-## JSDoc tags
+# JSDoc tags
 
 Currently Compodoc only support these JSDoc tags :
 
