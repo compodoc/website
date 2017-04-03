@@ -17,7 +17,7 @@
     height: calc(100% - 65px)
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
     .mdl-layout__drawer {
         margin-top:0;
         height: 100%
@@ -80,7 +80,7 @@
     padding-top: 0
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
     .mdl-layout__drawer-button {
         display: inline-block;
     }
@@ -204,7 +204,7 @@
     padding: 5px 10px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
     .hero-background h4 {
         font-size:20px;
         margin: 10px 0 10px 30px;
