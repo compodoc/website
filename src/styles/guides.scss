@@ -17,7 +17,7 @@
     height: calc(100% - 65px)
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
     .mdl-layout__drawer {
         margin-top:0;
         height: 100%
@@ -80,7 +80,7 @@
     padding-top: 0
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
     .mdl-layout__drawer-button {
         display: inline-block;
     }
@@ -224,6 +224,14 @@
         top: 0;
         width: 100%;
 
+
+@media screen and (min-width: 1024px) {
+    .mdl-layout--fixed-drawer>.mdl-layout__drawer {
+        -webkit-transform:translateX(0);
+        transform: translateX(0)
+    }
+}
+
         label {
             $padding: 16px;
             cursor: pointer;
@@ -257,12 +265,5 @@
         nav {
             display: block;
         }
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .mdl-layout--fixed-drawer>.mdl-layout__drawer {
-        -webkit-transform:translateX(0);
-        transform: translateX(0)
     }
 }
