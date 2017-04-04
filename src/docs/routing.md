@@ -20,3 +20,5 @@ spread variables in routes definition are not yet supported
 ```js
 const APP_ROUTES: Routes = [...ROUTES];
 ```
+
+![screenshot](../assets/img/screenshots/routing.png)
