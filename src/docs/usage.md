@@ -22,6 +22,7 @@ compodoc <src> [options]
 | __ --toggleMenuItems <items> __ | Close by default items in the menu ( example: 'all' or 'modules','components' ) |
 | __ --includes [path] __ | Path of external markdown files to include
 | __ --includesName [name] __ | Name of item menu of externals markdown files (default "Additional documentation")
+| __ --coverageTest __ | Test command of documentation coverage with a threshold (default 70)
 | __ --disableSourceCode __ | Do not add source code tab
 | __ --disableGraph __ | Disable rendering of the dependency graph
 | __ --disableCoverage __ | Do not add the documentation coverage report
