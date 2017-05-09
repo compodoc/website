@@ -1,0 +1,47 @@
+<h1>Styling the documentation</h1><pre><code>compodoc -p src/tsconfig.json -y your_theme_styles/
+</code></pre><p>Inside your folder you need to provide at least a style.css file with these 5 imports as below.</p>
+<pre><code>@import &quot;./reset.css&quot;;
+@import &quot;./bootstrap.min.css&quot;;
+@import &quot;./bootstrap-card.css&quot;;
+@import &quot;./font-awesome.min.css&quot;;
+@import &quot;./compodoc.css&quot;;
+</code></pre><p>Compodoc use <a href="http://getbootstrap.com/">bootstrap</a> 3.3.7. You can customize Compodoc easily.</p>
+<p><a href="http://bootswatch.com/">bootswatch.com</a> can be a good starting point. If you want to override the default theme, just provide a bootstrap.min.css file, and it will override the default one.</p>
+<pre><code>└── your_theme_styles/
+    ├── style.css // the main css file with default imports
+    └── bootstrap.min.css // your bootstrap theme
+</code></pre><h1>Documentation of each component</h1><p>A comment description in <strong>xxx.component.ts</strong> file, between JSDoc comments can be a little short.</p>
+<p>Compodoc search for a default <strong>xxx.component.md</strong> or <strong>README.md</strong> file inside the root folder of each component, and add it inside a tab in the component page.</p>
+<pre><code>└── my-component/
+    ├── my.component.ts
+    ├── my.component.spec.ts
+    ├── my.component.scss|css
+    ├── my.component.html
+    └── my.component.md OR README.md
+</code></pre><h1>Additional documentation</h1><p>Compodoc support the addition of external markdown files for extending the code comments of your application and the main README file.</p>
+<p>Create a folder containing markdown files and use <code>--includes</code> flag to extend the documentation.
+Your folder should contain a <strong>summary.json</strong> file explaining the structure and files :</p>
+<pre><code>summary.json
+
+[
+    {
+        &quot;title&quot;: &quot;A TITLE&quot;,
+        &quot;file&quot;: &quot;a-file.md&quot;
+    },
+    {
+        &quot;title&quot;: &quot;A TITLE&quot;,
+        &quot;file&quot;: &quot;a-file.md&quot;,
+        &quot;children&quot;: [
+            {
+                &quot;title&quot;: &quot;A TITLE&quot;,
+                &quot;file&quot;: &quot;a-sub-folder/a-file.md&quot;
+            }
+        ]
+    }
+]
+</code></pre><p>Links are supported like regular markdown links.</p>
+<h1>Syntax highlighting in markdown files</h1><p>Compodoc use <a href="https://github.com/chjj/marked">Marked</a> for markdown parsing and compiling to html. <a href="http://prismjs.com/">prismjs.js</a> has been added for supporting syntax highlighting.</p>
+<p>Just use a normal code block in your markdown with correct language : <a href="https://help.github.com/articles/creating-and-highlighting-code-blocks/">Github help</a></p>
+<p>The integrated languages are : <strong>json, bash, javascript, markdown, html, typescript</strong></p>
+<h1>Excluding files</h1><p>For excluding files from the documentation, simply use the <strong>exports</strong> property of <a href="https://www.typescriptlang.org/docs/handbook/tsconfig-json.html"><strong>tsconfig.json</strong></a> file.</p>
+<p>You can exclude specific file with name <code>app/myfile.ts</code> or with glob pattern <code>**/*.spec.ts</code>.</p>
