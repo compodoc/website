@@ -18,4 +18,4 @@ Don't forget to read the [Contributing guide](https://github.com/compodoc/compod
 
 # Ready ? Go !
 
-Read the [installation](./installation.html) page for details on installation. The [usage]([./usage.html) helps you with all the options available.
+Read the [installation](./installation.html) page for details on installation. The [usage](./usage.html) helps you with all the options available.
