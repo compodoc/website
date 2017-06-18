@@ -23,10 +23,10 @@ compodoc <src> [options]
 | __ --includes [path] __ | Path of external markdown files to include
 | __ --includesName [name] __ | Name of item menu of externals markdown files (default "Additional documentation")
 | __ --coverageTest __ | Test command of documentation coverage with a threshold (default 70)
-| __ --disableSourceCode __ | Do not add source code tab
+| __ --disableSourceCode __ | Do not add source code tab and links to source code
 | __ --disableGraph __ | Disable rendering of the dependency graph
 | __ --disableCoverage __ | Do not add the documentation coverage report
-| __ --disablePrivateOrInternalSupport __ | Do not show private or @internal in generated documentation
+| __ --disablePrivateOrInternalSupport __ | Do not show private, @internal or Angular lifecycle hooks in generated documentation
 
 # Render documentation
 
