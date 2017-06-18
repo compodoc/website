@@ -22,6 +22,25 @@ These ones are not supported :
 // unsupported comment
 ```
 
+New lines are created inside a comment with a blank line between two lines.
+
+```js
+/**
+ * First line
+ *
+ * Second line
+ */
+```
+
+The example below will produce only one line in the outputed documentation.
+
+```js
+/**
+ * First line
+ * Second line
+ */
+```
+
 # JSDoc tags
 
 Currently Compodoc only support these JSDoc tags (due to [TypeScript compiler limitations](https://github.com/Microsoft/TypeScript/wiki/JSDoc-support-in-JavaScript)) :
