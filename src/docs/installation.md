@@ -16,6 +16,12 @@ Install from npm :
 npm install -g @compodoc/compodoc
 ```
 
+If you use PowerShell on Windows, add quotes :
+
+```bash
+npm install -g "@compodoc/compodoc"
+```
+
 # Local installation
 
 ```bash
