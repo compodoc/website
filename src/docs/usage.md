@@ -28,6 +28,24 @@ compodoc <src> [options]
 | __ --disableCoverage __ | Do not add the documentation coverage report
 | __ --disablePrivateOrInternalSupport __ | Do not show private, @internal or Angular lifecycle hooks in generated documentation
 
+# Options, quotes and Windows usage
+
+Keep in mind that using options with multiple words need quotes around your sentence.
+
+```bash
+compodoc -p src/tsconfig.json -n 'My app documentation'
+```
+
+Using npm scripts, the command is hosted in package.json file. Don't forget to escape with double quotes for Windows systems.
+
+```bash
+{
+   ...
+   "doc": "./node_modules/.bin/compodoc -p src/tsconfig.app.json -n \"My app documentation\""
+   ...
+}
+```
+
 # Render documentation
 
 Documentation is generated in default output folder, then run your HTTP server in that folder.
