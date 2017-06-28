@@ -80,14 +80,16 @@ function processTarget(target:string):number;
 
 - ```@example``` : for giving an example on directives, components and pipes decorators, use @example or markdown :
 
+__INDENTATION WARNING__ : TypeScript has an internal margin for new lines, if you want to keep a level of indentation, put a minimum of 13 space characters like in the next example.
+
 ```js
 /**
  * Shows all events on a given day. Example usage:
  *
  * `` `
  * &lt;mwl-calendar-day-view
- *  [viewDate]="viewDate"
- *  [events]="events"&gt;
+ *             [viewDate]="viewDate"
+ *             [events]="events"&gt;
  * &lt;/mwl-calendar-day-view&gt;
  * `` `
  */
@@ -97,8 +99,8 @@ function processTarget(target:string):number;
   *
   * @example
   * <mwl-calendar-day-view
-  *  [viewDate]="viewDate"
-  *  [events]="events">;
+  *             [viewDate]="viewDate"
+  *             [events]="events">
   * </mwl-calendar-day-view>
   */
 ```
