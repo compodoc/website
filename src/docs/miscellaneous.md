@@ -9,10 +9,8 @@ These are some that [we know of](https://github.com/search?q=compodoc+filename%3
 
 # What they think of Compodoc ?
 
-<blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">Hey <a href="https://twitter.com/vogloblinsky">@vogloblinsky</a> and <a href="https://twitter.com/manekinekko">@manekinekko</a> the team here at work is falling in ❤️ with <a href="https://twitter.com/hashtag/compodoc?src=hash">#compodoc</a>. Thank you x1000!<a href="https://t.co/wme8n3cVHv">https://t.co/wme8n3cVHv</a></p>&mdash; Justin (@schwarty) <a href="https://twitter.com/schwarty/status/859814974578868224">3 mai 2017</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">Just tried <a href="https://twitter.com/vogloblinsky">@vogloblinsky</a> &#39;s Compodoc. What a great tool for Angular app documentation!<br>Thanks for the tip <a href="https://twitter.com/mgechev">@mgechev</a><a href="https://t.co/d9A2K9HX3W">https://t.co/d9A2K9HX3W</a></p>&mdash; Vasco Correia (@vjcorr) <a href="https://twitter.com/vjcorr/status/880681282316980225">30 juin 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet" data-conversation="none" data-lang="fr"><p lang="en" dir="ltr"><a href="https://twitter.com/vogloblinsky">@vogloblinsky</a> <a href="https://twitter.com/schwarty">@schwarty</a> <a href="https://twitter.com/amcdnl">@amcdnl</a> <a href="https://twitter.com/manekinekko">@manekinekko</a> <a href="https://twitter.com/AngularAir">@AngularAir</a> Compodoc is the bees knees!! Thank you!</p>&mdash; Alyssa Nicoll (@AlyssaNicoll) <a href="https://twitter.com/AlyssaNicoll/status/859596472500801538">3 mai 2017</a></blockquote>
 
 <blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">thx <a href="https://twitter.com/vogloblinsky">@vogloblinsky</a> for compodoc  <a href="https://t.co/DYr3SlTw18">https://t.co/DYr3SlTw18</a> ...it already helped a lot ;)</p>&mdash; matthias rebel (@_rebeling) <a href="https://twitter.com/_rebeling/status/875867727533146112">17 juin 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -25,3 +23,8 @@ These are some that [we know of](https://github.com/search?q=compodoc+filename%3
 
 <blockquote class="twitter-tweet" data-lang="fr"><p lang="es" dir="ltr">Compodoc es una excelente herramienta para documentar todos nuestros proyectos de <a href="https://twitter.com/hashtag/angular2?src=hash">#angular2</a><br> <a href="https://t.co/iYHKVSq2no">https://t.co/iYHKVSq2no</a></p>&mdash; tsugiteam (@tsugiteam) <a href="https://twitter.com/tsugiteam/status/860197444629524483">4 mai 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">Hey <a href="https://twitter.com/vogloblinsky">@vogloblinsky</a> and <a href="https://twitter.com/manekinekko">@manekinekko</a> the team here at work is falling in ❤️ with <a href="https://twitter.com/hashtag/compodoc?src=hash">#compodoc</a>. Thank you x1000!<a href="https://t.co/wme8n3cVHv">https://t.co/wme8n3cVHv</a></p>&mdash; Justin (@schwarty) <a href="https://twitter.com/schwarty/status/859814974578868224">3 mai 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="fr"><p lang="en" dir="ltr"><a href="https://twitter.com/vogloblinsky">@vogloblinsky</a> <a href="https://twitter.com/schwarty">@schwarty</a> <a href="https://twitter.com/amcdnl">@amcdnl</a> <a href="https://twitter.com/manekinekko">@manekinekko</a> <a href="https://twitter.com/AngularAir">@AngularAir</a> Compodoc is the bees knees!! Thank you!</p>&mdash; Alyssa Nicoll (@AlyssaNicoll) <a href="https://twitter.com/AlyssaNicoll/status/859596472500801538">3 mai 2017</a></blockquote>
