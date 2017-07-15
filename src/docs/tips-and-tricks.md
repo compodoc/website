@@ -23,11 +23,11 @@ Compodoc use [bootstrap](http://getbootstrap.com/) 3.3.7. You can customize Comp
     └── bootstrap.min.css // your bootstrap theme
 ```
 
-# Documentation of each component
+# Documentation of each component, module, directives etc
 
 A comment description in __xxx.component.ts__ file, between JSDoc comments can be a little short.
 
-Compodoc search for a default __xxx.component.md__ or __README.md__ file inside the root folder of each component, and add it inside a tab in the component page.
+Compodoc search for a default __xxx.component.md__ file inside the root folder of each component, and add it inside a tab in the component page. It is the same for class, module etc.
 
 ```
 └── my-component/
@@ -35,7 +35,7 @@ Compodoc search for a default __xxx.component.md__ or __README.md__ file inside 
     ├── my.component.spec.ts
     ├── my.component.scss|css
     ├── my.component.html
-    └── my.component.md OR README.md
+    └── my.component.md
 ```
 
 # Additional documentation
