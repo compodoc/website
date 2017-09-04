@@ -1,5 +1,6 @@
 # Who's using Compodoc ?
 
+- [angular-starter](https://github.com/AngularClass/angular-starter)
 - [angular-seed](https://github.com/mgechev/angular-seed)
 - [angular-calendar](https://github.com/mattlewis92/angular-calendar)
 - [angular-gauge](https://github.com/mattlewis92/angular-gauge)
