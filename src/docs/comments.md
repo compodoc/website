@@ -71,6 +71,8 @@ function processTarget(target:string):number;
 [Todo]{@link Todo}
 {@link Todo|TodoClass}
 
+Anchors are supported : [Todo]{@link Todo#myproperty}
+
 //for an external link
 
 [Google]{@link http://www.google.com}
