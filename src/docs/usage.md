@@ -17,12 +17,14 @@ compodoc <src> [options]
 | __ -s, --serve __ | Serve generated documentation (default http://localhost:8080/) |
 | __ -r, --port [port] __ | Change default serving port |
 | __ -w, --watch __ | Watch source files after serve and force documentation rebuild |
+| __ -e, --exportFormat [format] __ | Export in specified format (json, html (default)) |
 | __ --theme [theme] __ | Choose one of available themes, default is 'gitbook' (laravel, original, postmark, readthedocs, stripe, vagrant) |
 | __ --hideGenerator __ | Do not print the Compodoc logo at the bottom of the page |
 | __ --toggleMenuItems <items> __ | Close by default items in the menu (default ['all']) values : ['all'] or one of these ['modules','components','directives','classes','injectables','interfaces','pipes','additionalPages']) |
 | __ --includes [path] __ | Path of external markdown files to include
 | __ --includesName [name] __ | Name of item menu of externals markdown files (default "Additional documentation")
 | __ --coverageTest __ | Test command of documentation coverage with a threshold (default 70)
+| __ --coverageMinimumPerFile [minimum] __ | Test command of documentation coverage per file with a minimum (default 0)
 | __ --disableSourceCode __ | Do not add source code tab and links to source code
 | __ --disableGraph __ | Disable rendering of the dependency graph
 | __ --disableCoverage __ | Do not add the documentation coverage report
