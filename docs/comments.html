@@ -1,0 +1,89 @@
+<h1>General information</h1><p>Compodoc use Typescript AST parser and it&#39;s internal APIs, so the comments have to be JSDoc comments :</p>
+<pre><code class="language-js">/**
+ * Supported comment
+ */
+</code></pre>
+<p>These ones are not supported :</p>
+<pre><code class="language-js">/*
+ * unsupported comment
+ */
+
+/*
+  unsupported comment
+ */
+
+// unsupported comment
+</code></pre>
+<p>New lines are created inside a comment with a blank line between two lines.</p>
+<pre><code class="language-js">/**
+ * First line
+ *
+ * Second line
+ */
+</code></pre>
+<p>The example below will produce only one line in the outputed documentation.</p>
+<pre><code class="language-js">/**
+ * First line
+ * Second line
+ */
+</code></pre>
+<h1>JSDoc tags</h1><p>Currently Compodoc only support these JSDoc tags (due to <a href="https://github.com/Microsoft/TypeScript/wiki/JSDoc-support-in-JavaScript">TypeScript compiler limitations</a>) :</p>
+<ul>
+<li><p><code>@returns</code></p>
+</li>
+<li><p><code>@param &lt;param name&gt;</code></p>
+</li>
+</ul>
+<pre><code class="language-js">/**
+ * @param {string} target  The target to process see {@link Todo}
+ *
+ * @example
+ * This is a good example
+ * processTarget(&#39;yo&#39;)
+ *
+ * @returns      The processed target number
+ */
+function processTarget(target:string):number;
+</code></pre>
+<ul>
+<li><code>@link</code> : you can use these three syntax like JSDoc:</li>
+</ul>
+<pre><code class="language-js">//for an internal reference
+
+{@link Todo}
+[Todo]{@link Todo}
+{@link Todo|TodoClass}
+
+Anchors are supported : [Todo]{@link Todo#myproperty}
+
+//for an external link
+
+[Google]{@link http://www.google.com}
+{@link http://www.apple.com|Apple}
+{@link https://github.com GitHub}
+</code></pre>
+<ul>
+<li><code>@example</code> : for giving an example on directives, components and pipes decorators, use @example or markdown :</li>
+</ul>
+<p><strong>INDENTATION WARNING</strong> : TypeScript has an internal margin for new lines, if you want to keep a level of indentation, put a minimum of 13 space characters like in the next example.</p>
+<pre><code class="language-js">/**
+ * Shows all events on a given day. Example usage:
+ *
+ * `` `
+ * &amp;lt;mwl-calendar-day-view
+ *             [viewDate]=&quot;viewDate&quot;
+ *             [events]=&quot;events&quot;&amp;gt;
+ * &amp;lt;/mwl-calendar-day-view&amp;gt;
+ * `` `
+ */
+
+ /**
+  * Shows all events on a given day. Example usage:
+  *
+  * @example
+  * &lt;mwl-calendar-day-view
+  *             [viewDate]=&quot;viewDate&quot;
+  *             [events]=&quot;events&quot;&gt;
+  * &lt;/mwl-calendar-day-view&gt;
+  */
+</code></pre>
