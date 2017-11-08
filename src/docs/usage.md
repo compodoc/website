@@ -28,7 +28,11 @@ compodoc <src> [options]
 | __ --disableSourceCode __ | Do not add source code tab and links to source code
 | __ --disableGraph __ | Disable rendering of the dependency graph
 | __ --disableCoverage __ | Do not add the documentation coverage report
-| __ --disablePrivateOrInternalSupport __ | Do not show private, @internal or Angular lifecycle hooks in generated documentation
+| __ --disablePrivate __ | Do not show private in generated documentation
+| __ --disableProtected __ | Do not show protected in generated documentation
+| __ --disableInternal __ | Do not show @internal in generated documentation
+| __ --disableLifeCycleHooks __ | Do not show Angular lifecycle hooks in generated documentation
+| __ --customFavicon [path] __ | Use a custom favicon
 
 # Options, quotes and Windows usage
 
