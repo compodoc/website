@@ -1,10 +1,10 @@
 # Node.js versions
 
-Compodoc is tested with only LTS versions : v6.9.4 & v4.7.1
+Compodoc is tested with only LTS versions : v8.9.1, v6.12.0 & v4.8.6
 
 # Angular-CLI
 
-Compodoc supports last Angular-CLI version : 1.0.0
+Compodoc supports last Angular-CLI version : 1.5
 
 Just run Compodoc in a fresh or existing project.
 
