@@ -1,0 +1,20 @@
+<h1>Node.js versions</h1><p>Compodoc is tested with only LTS versions : v8.9.1, v6.12.0 &amp; v4.8.6</p>
+<h1>Angular-CLI</h1><p>Compodoc supports last Angular-CLI version : 1.5</p>
+<p>Just run Compodoc in a fresh or existing project.</p>
+<h1>Global installation</h1><p>Install from npm :</p>
+<pre><code class="language-bash">npm install -g @compodoc/compodoc
+</code></pre>
+<p>If you use PowerShell on Windows, add quotes :</p>
+<pre><code class="language-bash">npm install -g &quot;@compodoc/compodoc&quot;
+</code></pre>
+<h1>Local installation</h1><pre><code class="language-bash">npm install --save-dev @compodoc/compodoc
+</code></pre>
+<p>Define a script task for it in your package.json :</p>
+<pre><code class="language-bash">&quot;scripts&quot;: {
+  &quot;compodoc&quot;: &quot;./node_modules/.bin/compodoc -p src/tsconfig.json&quot;
+}
+</code></pre>
+<p>and run it like a normal npm script :</p>
+<pre><code class="language-bash">npm run compodoc
+</code></pre>
+<p>See <a href="./usage.html">usage</a> for more details.</p>

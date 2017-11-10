@@ -1,0 +1,149 @@
+<pre><code class="language-bash">compodoc &lt;src&gt; [options]
+</code></pre>
+<h1>Options :</h1><table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong> -h, --help </strong></td>
+<td>output usage information</td>
+</tr>
+<tr>
+<td><strong> -V, --version </strong></td>
+<td>output the version number</td>
+</tr>
+<tr>
+<td><strong> -p, --tsconfig [config] </strong></td>
+<td>A tsconfig.json file</td>
+</tr>
+<tr>
+<td><strong> -d, --output [folder] </strong></td>
+<td>Where to store the generated documentation</td>
+</tr>
+<tr>
+<td><strong> -y, --extTheme [file] </strong></td>
+<td>External styling theme</td>
+</tr>
+<tr>
+<td><strong> -n, --name [name] </strong></td>
+<td>Title of the documentation</td>
+</tr>
+<tr>
+<td><strong> -a, --assetsFolder [folder] </strong></td>
+<td>External assets folder to copy in generated documentation folder</td>
+</tr>
+<tr>
+<td><strong> -o, --open </strong></td>
+<td>Open the generated documentation</td>
+</tr>
+<tr>
+<td><strong> -t, --silent </strong></td>
+<td>In silent mode, log messages aren&#39;t logged in the console</td>
+</tr>
+<tr>
+<td><strong> -s, --serve </strong></td>
+<td>Serve generated documentation (default <a href="http://localhost:8080/">http://localhost:8080/</a>)</td>
+</tr>
+<tr>
+<td><strong> -r, --port [port] </strong></td>
+<td>Change default serving port</td>
+</tr>
+<tr>
+<td><strong> -w, --watch </strong></td>
+<td>Watch source files after serve and force documentation rebuild</td>
+</tr>
+<tr>
+<td><strong> -e, --exportFormat [format] </strong></td>
+<td>Export in specified format (json, html (default))</td>
+</tr>
+<tr>
+<td><strong> --theme [theme] </strong></td>
+<td>Choose one of available themes, default is &#39;gitbook&#39; (laravel, original, postmark, readthedocs, stripe, vagrant)</td>
+</tr>
+<tr>
+<td><strong> --hideGenerator </strong></td>
+<td>Do not print the Compodoc logo at the bottom of the page</td>
+</tr>
+<tr>
+<td><strong> --toggleMenuItems <items> </strong></td>
+<td>Close by default items in the menu (default [&#39;all&#39;]) values : [&#39;all&#39;] or one of these [&#39;modules&#39;,&#39;components&#39;,&#39;directives&#39;,&#39;classes&#39;,&#39;injectables&#39;,&#39;interfaces&#39;,&#39;pipes&#39;,&#39;additionalPages&#39;])</td>
+</tr>
+<tr>
+<td><strong> --includes [path] </strong></td>
+<td>Path of external markdown files to include</td>
+</tr>
+<tr>
+<td><strong> --includesName [name] </strong></td>
+<td>Name of item menu of externals markdown files (default &quot;Additional documentation&quot;)</td>
+</tr>
+<tr>
+<td><strong> --coverageTest </strong></td>
+<td>Test command of documentation coverage with a threshold (default 70)</td>
+</tr>
+<tr>
+<td><strong> --coverageMinimumPerFile [minimum] </strong></td>
+<td>Test command of documentation coverage per file with a minimum (default 0)</td>
+</tr>
+<tr>
+<td><strong> --disableSourceCode </strong></td>
+<td>Do not add source code tab and links to source code</td>
+</tr>
+<tr>
+<td><strong> --disableGraph </strong></td>
+<td>Disable rendering of the dependency graph</td>
+</tr>
+<tr>
+<td><strong> --disableCoverage </strong></td>
+<td>Do not add the documentation coverage report</td>
+</tr>
+<tr>
+<td><strong> --disablePrivate </strong></td>
+<td>Do not show private in generated documentation</td>
+</tr>
+<tr>
+<td><strong> --disableProtected </strong></td>
+<td>Do not show protected in generated documentation</td>
+</tr>
+<tr>
+<td><strong> --disableInternal </strong></td>
+<td>Do not show @internal in generated documentation</td>
+</tr>
+<tr>
+<td><strong> --disableLifeCycleHooks </strong></td>
+<td>Do not show Angular lifecycle hooks in generated documentation</td>
+</tr>
+<tr>
+<td><strong> --customFavicon [path] </strong></td>
+<td>Use a custom favicon</td>
+</tr>
+</tbody>
+</table>
+<h1>Options, quotes and Windows usage</h1><p>Keep in mind that using options with multiple words need quotes around your sentence.</p>
+<pre><code class="language-bash">compodoc -p src/tsconfig.json -n &#39;My app documentation&#39;
+</code></pre>
+<p>Using npm scripts, the command is hosted in package.json file. Don&#39;t forget to escape with double quotes for Windows systems.</p>
+<pre><code class="language-bash">{
+   ...
+   &quot;doc&quot;: &quot;./node_modules/.bin/compodoc -p src/tsconfig.app.json -n \&quot;My app documentation\&quot;&quot;
+   ...
+}
+</code></pre>
+<h1>Render documentation</h1><p>Documentation is generated in default output folder, then run your HTTP server in that folder.</p>
+<pre><code class="language-bash">compodoc -p src/tsconfig.json
+</code></pre>
+<h1>Render documentation while providing source folder</h1><pre><code class="language-bash">compodoc src -p src/tsconfig.json
+</code></pre>
+<h1>Serve generated documentation with compodoc</h1><p>Documentation was generated in default output folder or a specific one, the local HTTP server is launched at <a href="http://localhost:8080">http://localhost:8080</a></p>
+<pre><code class="language-bash">compodoc -s
+
+or
+
+compodoc -s -d ./doc
+</code></pre>
+<h1>Render documentation, and serve it with compodoc</h1><p>Documentation is generated in default output folder, and a local HTTP server is available at <a href="http://localhost:8080">http://localhost:8080</a></p>
+<pre><code class="language-bash">compodoc -p src/tsconfig.json -s
+</code></pre>

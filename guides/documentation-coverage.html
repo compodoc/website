@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="favicon.ico" rel="shortcut icon" type="image/ico">
+    <title>Compodoc - The missing documentation tool for your Angular application</title>
+
+
+    <!-- Material Design icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="../vendors/material-design-lite/material.min.css">
+
+    <link rel="stylesheet" href="../styles/guides.css">
+    </head>
+
+    <body>
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+            <span class="mdl-layout-title">
+                    <a class="site-header mdl-navigation__link--title" href="../">
+                        <img src="../assets/img/compodoc-vectorise-inverted.svg" alt="">
+                    </a>
+                </span>
+            <input type="checkbox" id="site-nav-checkbox" class="visuallyhidden">
+            <div class="top-nav-wrapper">
+                <label for="site-nav-checkbox">SITE MENU</label>
+                <nav class="mdl-navigation">
+                    <a class="mdl-navigation__link" href="./getting-started.html">Guides</a>
+                    <a class="mdl-navigation__link" href="https://github.com/compodoc/compodoc/blob/develop/CHANGELOG.md" target="_blank">Change Log</a>
+                    <a class="mdl-navigation__link" href="https://github.com/compodoc/compodoc/issues" target="_blank">Report issues</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Guides</span>
+        <nav class="mdl-navigation">
+            
+                <a class="mdl-navigation__link" href="getting-started.html">
+                    1 - getting started
+                </a>
+            
+                <a class="mdl-navigation__link" href="features.html">
+                    2 - features
+                </a>
+            
+                <a class="mdl-navigation__link" href="demo.html">
+                    3 - demo
+                </a>
+            
+                <a class="mdl-navigation__link" href="installation.html">
+                    4 - installation
+                </a>
+            
+                <a class="mdl-navigation__link" href="usage.html">
+                    5 - usage
+                </a>
+            
+                <a class="mdl-navigation__link" href="themes.html">
+                    6 - themes
+                </a>
+            
+                <a class="mdl-navigation__link" href="comments.html">
+                    7 - comments
+                </a>
+            
+                <a class="mdl-navigation__link" href="routing.html">
+                    8 - routing
+                </a>
+            
+                <a class="mdl-navigation__link" href="documentation-coverage.html">
+                    9 - documentation coverage
+                </a>
+            
+                <a class="mdl-navigation__link" href="tips-and-tricks.html">
+                    10 - tips and tricks
+                </a>
+            
+                <a class="mdl-navigation__link" href="extensions.html">
+                    11 - extensions
+                </a>
+            
+                <a class="mdl-navigation__link" href="miscellaneous.html">
+                    12 - miscellaneous
+                </a>
+            
+                <a class="mdl-navigation__link" href="live-example-tab.html">
+                    13 - live example tab
+                </a>
+            
+        </nav>
+    </div>
+    <main class="mdl-layout__content">
+        <header class="hero-background">
+            <section class="section mdl-grid mdl-grid--no-spacing">
+                <div class="mdl-cell">
+                    <h4 class="mt1 page-title">Documentation coverage</h4>
+                </div>
+            </section>
+        </header>
+        <div class="page-content markdown-doc">
+            <h1>General information</h1><p>Documentation coverage is calculated only for all statement of the file, even decorators.</p>
+<p>Private functions are not part of the calculation.</p>
+<p>The command <code>--coverageTest</code> gives the ability to test under a CI context the level of documentation coverage.</p>
+<p><img src="../assets/img/screenshots/8.png" alt="screenshot"></p>
+<p>The command <code>--coverageMinimumPerFile</code> gives the ability to specify a minimum of coverage per file.</p>
+
+        </div>
+        <footer>
+    <div class="mdl-mega-footer--bottom-section">
+        <p class="mdl-typography--font-light center badges">
+            <a href="https://travis-ci.org/compodoc/compodoc"><img src="https://travis-ci.org/compodoc/compodoc.svg?branch=develop" alt="Build Status"></a>
+            <a href="https://ci.appveyor.com/project/vogloblinsky/compodoc/branch/develop"><img src="https://ci.appveyor.com/api/projects/status/0wkundlfn3vs6r3m/branch/develop?svg=true" alt="Build Status"></a>
+            <a href="https://codecov.io/gh/compodoc/compodoc"><img src="https://codecov.io/gh/compodoc/compodoc/branch/develop/graph/badge.svg" alt="Codecov"></a>
+            <a href="https://www.npmjs.com/package/@compodoc/compodoc"><img src="https://badge.fury.io/js/%40compodoc%2Fcompodoc.svg" alt="npm badge"></a>
+            <a href="https://david-dm.org/compodoc/compodoc"><img src="https://david-dm.org/compodoc/compodoc.svg" alt="npm dependencies"></a>
+            <a href="https://david-dm.org/compodoc/compodoc?type=dev"><img src="https://david-dm.org/compodoc/compodoc/dev-status.svg" alt="npm devDependencies"></a>
+            <a href="http://opensource.org/licenses/MIT"><img src="http://img.shields.io/badge/license-MIT-brightgreen.svg" alt="MIT badge"></a>
+        </p>
+        <p class="mdl-typography--font-light center"> Powered by <a href="http://www.vincentogloblinsky.com/" target="_blank">Vincent Ogloblinsky</a> ©2016-2017. Code licensed under an <a href="/license.html">MIT-style License</a>. Documentation licensed under <a href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+    </div>
+</footer>
+
+    </main>
+</div>
+        <script src="../vendors/material-design-lite/material.min.js"></script>
+    </body>
+
+    <script src="../vendors/prism.js"></script>
+
+    <script async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-89693051-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    </html>

@@ -1,0 +1,14 @@
+<h1>General information</h1><p>Follow the <a href="https://angular.io/docs/ts/latest/guide/router.html#!#routing-module">style guide</a>, provide a const of type <strong>&#39;Routes&#39;</strong> with an <strong>unique</strong> name :</p>
+<pre><code class="language-js">const APP_ROUTES: Routes = [
+    { path: &#39;about&#39;, component: AboutComponent },
+    { path: &#39;&#39;, component: HomeComponent}
+];
+
+...
+
+RouterModule.forRoot(APP_ROUTES)
+</code></pre>
+<h1>Limitations</h1><p>spread variables in routes definition are not yet supported</p>
+<pre><code class="language-js">const APP_ROUTES: Routes = [...ROUTES];
+</code></pre>
+<p><img src="../assets/img/screenshots/routing.png" alt="screenshot"></p>
