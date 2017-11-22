@@ -11,6 +11,8 @@ Inside your folder you need to provide at least a style.css file with these 5 im
 @import "./bootstrap-card.css";
 @import "./font-awesome.min.css";
 @import "./compodoc.css";
+@import "./prism.css";
+@import "./tablesort.css";
 ```
 
 Compodoc use [bootstrap](http://getbootstrap.com/) 3.3.7. You can customize Compodoc easily.
