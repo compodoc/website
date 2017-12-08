@@ -14,7 +14,7 @@ Compodoc is an open source effort from [Vincent Ogloblinsky](http://www.vincento
 
 Developers can contribute and fork the repo on [GitHub](https://github.com/compodoc/compodoc).
 
-Don't forget to read the [Contributing guide](https://github.com/compodoc/compodoc/blob/master/.github/CONTRIBUTING.md).
+Don't forget to read the [Contributing guide](https://github.com/compodoc/compodoc/blob/master/CONTRIBUTING.md).
 
 # Ready ? Go !
 
