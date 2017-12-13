@@ -13,6 +13,9 @@ These are some that [we know of](https://github.com/search?q=compodoc+filename%3
 
 # What they think of Compodoc ?
 
+<blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/compodoc?src=hash&amp;ref_src=twsrc%5Etfw">#compodoc</a> is blowing my mind right now, just pointed it at an Angular4 app and it’s generated beautiful docs with component trees, module visualisations, the works! Top work <a href="https://twitter.com/vogloblinsky?ref_src=twsrc%5Etfw">@vogloblinsky</a> and <a href="https://twitter.com/manekinekko?ref_src=twsrc%5Etfw">@manekinekko</a></p>&mdash; Mel Lota (@mlota) <a href="https://twitter.com/mlota/status/940872310634024961?ref_src=twsrc%5Etfw">13 décembre 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 <blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">.<a href="https://twitter.com/vogloblinsky?ref_src=twsrc%5Etfw">@vogloblinsky</a> we have been using <a href="https://twitter.com/hashtag/compodoc?src=hash&amp;ref_src=twsrc%5Etfw">#compodoc</a> internally <a href="https://twitter.com/CapitalOne?ref_src=twsrc%5Etfw">@CapitalOne</a><br>Thanks for all the hardwork! <a href="https://twitter.com/hashtag/Angular?src=hash&amp;ref_src=twsrc%5Etfw">#Angular</a> <a href="https://twitter.com/hashtag/typescript?src=hash&amp;ref_src=twsrc%5Etfw">#typescript</a> <a href="https://t.co/ZzK5ZGf0t9">https://t.co/ZzK5ZGf0t9</a></p>&mdash; Youssef Taghlabi (@YoussefTaghlabi) <a href="https://twitter.com/YoussefTaghlabi/status/925174109960630274?ref_src=twsrc%5Etfw">31 octobre 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
