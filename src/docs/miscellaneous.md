@@ -13,6 +13,12 @@ These are some that [we know of](https://github.com/search?q=compodoc+filename%3
 
 # What they think of Compodoc ?
 
+<blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">Seriously, this is one of the coolest Angular projects we&#39;ve seen yet. It allows you to totally visualize your components. by <a href="https://twitter.com/vogloblinsky?ref_src=twsrc%5Etfw">@vogloblinsky</a> <a href="https://t.co/l8A9Rr814B">https://t.co/l8A9Rr814B</a></p>&mdash; ng-conf (@ngconf) <a href="https://twitter.com/ngconf/status/942878648775905286?ref_src=twsrc%5Etfw">18 décembre 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">Swagger is some cool stuff. For front-end and Back-end <a href="https://twitter.com/SwaggerApi?ref_src=twsrc%5Etfw">@SwaggerApi</a> and CompoDoc by <a href="https://twitter.com/vogloblinsky?ref_src=twsrc%5Etfw">@vogloblinsky</a> makes a good combination<a href="https://twitter.com/hashtag/fullstack?src=hash&amp;ref_src=twsrc%5Etfw">#fullstack</a> <a href="https://twitter.com/hashtag/developers?src=hash&amp;ref_src=twsrc%5Etfw">#developers</a></p>&mdash; Saiyaff Farouk (@msaiyaff) <a href="https://twitter.com/msaiyaff/status/942391805340876806?ref_src=twsrc%5Etfw">17 décembre 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 <blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/compodoc?src=hash&amp;ref_src=twsrc%5Etfw">#compodoc</a> is blowing my mind right now, just pointed it at an Angular4 app and it’s generated beautiful docs with component trees, module visualisations, the works! Top work <a href="https://twitter.com/vogloblinsky?ref_src=twsrc%5Etfw">@vogloblinsky</a> and <a href="https://twitter.com/manekinekko?ref_src=twsrc%5Etfw">@manekinekko</a></p>&mdash; Mel Lota (@mlota) <a href="https://twitter.com/mlota/status/940872310634024961?ref_src=twsrc%5Etfw">13 décembre 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
