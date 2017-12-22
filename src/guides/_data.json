@@ -4,14 +4,15 @@
         "2-features.html",
         "3-demo.html",
         "4-installation.html",
-        "5-usage.html",
-        "6-themes.html",
-        "7-comments.html",
-        "8-routing.html",
-        "9-documentation-coverage.html",
-        "10-tips-and-tricks.html",
-        "11-extensions.html",
-        "12-miscellaneous.html",
-        "13-live-example-tab.html"
+        "5-tutorial.html",
+        "6-usage.html",
+        "7-themes.html",
+        "8-comments.html",
+        "9-routing.html",
+        "10-documentation-coverage.html",
+        "11-tips-and-tricks.html",
+        "12-extensions.html",
+        "13-miscellaneous.html",
+        "14-live-example-tab.html"
     ]
 }
