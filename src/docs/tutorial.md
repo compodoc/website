@@ -47,3 +47,5 @@ You should see theses logs in your terminal.
 and this in your browser opening http://localhost:8080
 
 ![first-run](../assets/img/tutorial/first-run-browser.png)
+
+# Next steps coming soon...
