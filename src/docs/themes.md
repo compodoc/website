@@ -2,6 +2,10 @@
 
 ![theme-gitbook](https://raw.githubusercontent.com/compodoc/compodoc/master/screenshots/theme-gitbook.png)
 
+# Material design
+
+![theme-material](https://raw.githubusercontent.com/compodoc/compodoc/master/screenshots/theme-material.png)
+
 # Laravel
 
 ![theme-laravel](https://raw.githubusercontent.com/compodoc/compodoc/master/screenshots/theme-laravel.png)
@@ -21,7 +25,6 @@
 # Postmark
 
 ![theme-postmark](https://raw.githubusercontent.com/compodoc/compodoc/master/screenshots/theme-postmark.png)
-
 
 # Original (first theme of 2016)
 
