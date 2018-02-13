@@ -28,7 +28,8 @@ var generateUrlFromFilename = function(str) {
 var isSideNavEntrySelected = function(entry, i) {
     var currentEntry = current.path[current.path.length - 1];
     var entryNoExt = entry.replace('.html', '');
-    var entryNoNumber = entryNoExt.slice(3);
+    var indexOfFirstDash = entryNoExt.indexOf('-');
+    var entryNoNumber = entryNoExt.slice(indexOfFirstDash + 1);
     var isIndex = ((currentEntry === 'index') && (i === 0)); // case where no doc was selected, then select first entry
     var isSelected = (currentEntry === entryNoNumber) || isIndex;
     return isSelected ? 'selected' : '';

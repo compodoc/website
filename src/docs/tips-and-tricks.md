@@ -76,7 +76,7 @@ Compodoc use [Marked](https://github.com/chjj/marked) for markdown parsing and c
 
 Just use a normal code block in your markdown with correct language : [Github help](https://help.github.com/articles/creating-and-highlighting-code-blocks/)
 
-The integrated languages are : __json, bash, javascript, markdown, html, typescript__
+The integrated languages are : __json, bash, javascript, markdown, html, scss, typescript__
 
 # Excluding files
 

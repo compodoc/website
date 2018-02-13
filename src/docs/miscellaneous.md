@@ -13,6 +13,21 @@ These are some that [we know of](https://github.com/search?q=compodoc+filename%3
 
 # What they think of Compodoc ?
 
+<blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">Compodoc - The missing documentation tool for your Angular application. Need to check out. <a href="https://t.co/iHeQg9Ue3H">https://t.co/iHeQg9Ue3H</a></p>&mdash; David Boster (@davidboster) <a href="https://twitter.com/davidboster/status/960279567121383424?ref_src=twsrc%5Etfw">4 février 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">I love <a href="https://twitter.com/hashtag/Compodoc?src=hash&amp;ref_src=twsrc%5Etfw">#Compodoc</a>. If you use <a href="https://twitter.com/hashtag/Angular?src=hash&amp;ref_src=twsrc%5Etfw">#Angular</a>, you should use it. <a href="https://t.co/j8doRX1kpF">https://t.co/j8doRX1kpF</a></p>&mdash; Leo Caseiro 🇧🇷 🇦🇺 (@leocaseiro) <a href="https://twitter.com/leocaseiro/status/949076815930277888?ref_src=twsrc%5Etfw">5 janvier 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/compodoc?src=hash&amp;ref_src=twsrc%5Etfw">#compodoc</a> is blowing my mind right now, just pointed it at an Angular4 app and it’s generated beautiful docs with component trees, module visualisations, the works! Top work <a href="https://twitter.com/vogloblinsky?ref_src=twsrc%5Etfw">@vogloblinsky</a> and <a href="https://twitter.com/manekinekko?ref_src=twsrc%5Etfw">@manekinekko</a></p>&mdash; Mel Lota (@mlota) <a href="https://twitter.com/mlota/status/940872310634024961?ref_src=twsrc%5Etfw">13 décembre 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">Wanna documenting ur <a href="https://twitter.com/hashtag/angular?src=hash&amp;ref_src=twsrc%5Etfw">#angular</a> &amp; <a href="https://twitter.com/hashtag/typescript?src=hash&amp;ref_src=twsrc%5Etfw">#typescript</a> code? Definitely check out Compodoc! By <a href="https://twitter.com/vogloblinsky?ref_src=twsrc%5Etfw">@vogloblinsky</a> on <a href="https://twitter.com/hashtag/ngbe?src=hash&amp;ref_src=twsrc%5Etfw">#ngbe</a></p>&mdash; Juri Strumpflohner (@juristr) <a href="https://twitter.com/juristr/status/939083244561227777?ref_src=twsrc%5Etfw">8 décembre 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">7 Angular Tools That You Should Consider 🔨 <a href="https://twitter.com/code?ref_src=twsrc%5Etfw">@code</a> Snippets by <a href="https://twitter.com/John_Papa?ref_src=twsrc%5Etfw">@John_Papa</a>, CompoDoc by <a href="https://twitter.com/vogloblinsky?ref_src=twsrc%5Etfw">@vogloblinsky</a>, Augury by <a href="https://twitter.com/rangleio?ref_src=twsrc%5Etfw">@rangleio</a> and much more! <a href="https://t.co/upEnn0S84X">pic.twitter.com/upEnn0S84X</a></p>&mdash; Minko Gechev (@mgechev) <a href="https://twitter.com/mgechev/status/937984909003563008?ref_src=twsrc%5Etfw">5 décembre 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 <blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">Seriously, this is one of the coolest Angular projects we&#39;ve seen yet. It allows you to totally visualize your components. by <a href="https://twitter.com/vogloblinsky?ref_src=twsrc%5Etfw">@vogloblinsky</a> <a href="https://t.co/l8A9Rr814B">https://t.co/l8A9Rr814B</a></p>&mdash; ng-conf (@ngconf) <a href="https://twitter.com/ngconf/status/942878648775905286?ref_src=twsrc%5Etfw">18 décembre 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

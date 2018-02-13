@@ -19,3 +19,19 @@ Don't forget to read the [Contributing guide](https://github.com/compodoc/compod
 # Ready ? Go !
 
 Read the [installation](./installation.html) page for details on installation. The [usage](./usage.html) helps you with all the options available.
+
+# Backers
+
+Support us with a monthly donation and help us continue our activities. [Become a backer][support-url]
+
+[![Backers][backers-image]][support-url]
+
+# Sponsors
+
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [Become a sponsor][support-url]
+
+[![Sponsors][sponsors-image]][support-url]
+
+[support-url]: https://opencollective.com/compodoc#support
+[backers-image]: https://opencollective.com/compodoc/backers.svg
+[sponsors-image]: https://opencollective.com/compodoc/sponsors.svg

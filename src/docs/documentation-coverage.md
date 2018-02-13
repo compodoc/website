@@ -9,3 +9,5 @@ The command `--coverageTest` gives the ability to test under a CI context the le
 ![screenshot](../assets/img/screenshots/8.png)
 
 The command `--coverageMinimumPerFile` gives the ability to specify a minimum of coverage per file.
+
+The command `--coverageTestThresholdFail` gives the ability to specify if command will fail with error or just warn user (true: error, false: warn) (default: true)
