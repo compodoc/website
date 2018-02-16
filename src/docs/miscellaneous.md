@@ -1,13 +1,14 @@
 # Who's using Compodoc ?
 
-- [angular-starter](https://github.com/AngularClass/angular-starter)
-- [angular-seed](https://github.com/mgechev/angular-seed)
-- [angular-calendar](https://github.com/mattlewis92/angular-calendar)
-- [angular-gauge](https://github.com/mattlewis92/angular-gauge)
-- [generator-angular2-library](https://github.com/jvandemo/generator-angular2-library)
-- [Ionic Firebase Starter Application](https://docs.firetask.io/)
-- [angular-text-input-highlight](https://github.com/mattlewis92/angular-text-input-highlight)
-- [ngx-wow](https://tinesoft.github.io/ngx-wow/home)
+* [angular-starter](https://github.com/AngularClass/angular-starter)
+* [angular-seed](https://github.com/mgechev/angular-seed)
+* [ngx-admin](https://github.com/akveo/ngx-admin)
+* [angular-calendar](https://github.com/mattlewis92/angular-calendar)
+* [angular-gauge](https://github.com/mattlewis92/angular-gauge)
+* [generator-angular2-library](https://github.com/jvandemo/generator-angular2-library)
+* [Ionic Firebase Starter Application](https://docs.firetask.io/)
+* [angular-text-input-highlight](https://github.com/mattlewis92/angular-text-input-highlight)
+* [ngx-wow](https://tinesoft.github.io/ngx-wow/home)
 
 These are some that [we know of](https://github.com/search?q=compodoc+filename%3Apackage.json+-user%3Acompodoc&ref=searchresults&type=Code&utf8=%E2%9C%93). Want your project listed here ? Drop us a line.
 
@@ -45,7 +46,6 @@ These are some that [we know of](https://github.com/search?q=compodoc+filename%3
 
 <blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">A good documentation tool for Angular project : Compodoc<a href="https://t.co/I3cFnwbMd4">https://t.co/I3cFnwbMd4</a></p>&mdash; Maxime Bruguet (@MaximeBruguet) <a href="https://twitter.com/MaximeBruguet/status/934420899939409921?ref_src=twsrc%5Etfw">25 novembre 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 
 <blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">.<a href="https://twitter.com/vogloblinsky?ref_src=twsrc%5Etfw">@vogloblinsky</a> we have been using <a href="https://twitter.com/hashtag/compodoc?src=hash&amp;ref_src=twsrc%5Etfw">#compodoc</a> internally <a href="https://twitter.com/CapitalOne?ref_src=twsrc%5Etfw">@CapitalOne</a><br>Thanks for all the hardwork! <a href="https://twitter.com/hashtag/Angular?src=hash&amp;ref_src=twsrc%5Etfw">#Angular</a> <a href="https://twitter.com/hashtag/typescript?src=hash&amp;ref_src=twsrc%5Etfw">#typescript</a> <a href="https://t.co/ZzK5ZGf0t9">https://t.co/ZzK5ZGf0t9</a></p>&mdash; Youssef Taghlabi (@YoussefTaghlabi) <a href="https://twitter.com/YoussefTaghlabi/status/925174109960630274?ref_src=twsrc%5Etfw">31 octobre 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
