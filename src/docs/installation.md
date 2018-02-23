@@ -28,11 +28,13 @@ npm install -g "@compodoc/compodoc"
 npm install --save-dev @compodoc/compodoc
 ```
 
+# Run
+
 Define a script task for it in your package.json :
 
 ```bash
 "scripts": {
-  "compodoc": "./node_modules/.bin/compodoc -p src/tsconfig.json"
+  "compodoc": "./node_modules/.bin/compodoc -p src/tsconfig.app.json"
 }
 ```
 
@@ -43,3 +45,23 @@ npm run compodoc
 ```
 
 See [usage](./usage.html) for more details.
+
+# Position of tsconfig file in codebase
+
+Compodoc start at the folder level of the tsconfig file provided with `-p` option.
+
+Example for an Angular CLI project :
+
+.
+├── src
+│ ├── app
+│ │ ├── app.component.ts
+│ │ └── app.module.ts
+│ ├── main.ts
+│ ├── ...
+│ └── tsconfig.app.json
+└── tsconfig.json
+
+```bash
+compodoc -p src/tsconfig.app.json
+```
