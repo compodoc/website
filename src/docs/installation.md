@@ -32,7 +32,7 @@ Define a script task for it in your package.json :
 
 ```bash
 "scripts": {
-  "compodoc": "./node_modules/.bin/compodoc -p src/tsconfig.json"
+  "compodoc": "./node_modules/.bin/compodoc -p tsconfig.json"
 }
 ```
 
