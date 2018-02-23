@@ -52,6 +52,7 @@ Compodoc start at the folder level of the tsconfig file provided with `-p` optio
 
 Example for an Angular CLI project :
 
+```
 .
 ├── src
 │ ├── app
@@ -61,6 +62,7 @@ Example for an Angular CLI project :
 │ ├── ...
 │ └── tsconfig.app.json
 └── tsconfig.json
+```
 
 ```bash
 compodoc -p src/tsconfig.app.json
