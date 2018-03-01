@@ -33,6 +33,7 @@ compodoc <src> [options]
 | __ --disableProtected __ | Do not show protected in generated documentation
 | __ --disableInternal __ | Do not show @internal in generated documentation
 | __ --disableLifeCycleHooks __ | Do not show Angular lifecycle hooks in generated documentation
+| __ --disableRoutesGraph __ | Do not add the routes graph
 | __ --customFavicon [path] __ | Use a custom favicon
 | __ --gaID [id] __ | Google Analytics tracking ID
 | __ --gaSite [site] __ | Google Analytics site name (default auto (default: auto)
