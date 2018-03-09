@@ -8,11 +8,12 @@
         "6-usage.html",
         "7-themes.html",
         "8-comments.html",
-        "9-routing.html",
-        "10-documentation-coverage.html",
-        "11-tips-and-tricks.html",
-        "12-extensions.html",
-        "13-miscellaneous.html",
-        "14-live-example-tab.html"
+        "9-jsdoc-tags.html",
+        "10-routing.html",
+        "11-documentation-coverage.html",
+        "12-tips-and-tricks.html",
+        "13-extensions.html",
+        "14-miscellaneous.html",
+        "15-live-example-tab.html"
     ]
 }

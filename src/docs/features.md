@@ -12,7 +12,7 @@
 
 * **No TypeScript compilation** - Compodoc just parse your code
 
-* **JSDoc light support** - Support of @param, @returns, @link and @example tags
+* **JSDoc light support** - Support of @param, @returns, @link, @ignore and @example tags
 
 * **Documentation coverage** - Get the documentation coverage report of your project
 
