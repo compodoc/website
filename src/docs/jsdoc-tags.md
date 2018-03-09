@@ -32,7 +32,7 @@ export class AppComponent {}
 
 ```js
 /**
- * @ignore
+ * Footer component
  */
 @Component({
     selector: 'the-footer',
