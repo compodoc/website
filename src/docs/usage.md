@@ -27,6 +27,7 @@ compodoc <src> [options]
 | __ --coverageMinimumPerFile [minimum] __ | Test command of documentation coverage per file with a minimum (default 0)
 | __ --coverageTestThresholdFail [boolean] __ | Test command of documentation coverage (global or per file) will fail with error or just warn user (true: error, false: warn) (default: true)
 | __ --disableSourceCode __ | Do not add source code tab and links to source code
+| __ --disableDomTree __ | Do not add dom tree tab
 | __ --disableGraph __ | Disable rendering of the dependency graph
 | __ --disableCoverage __ | Do not add the documentation coverage report
 | __ --disablePrivate __ | Do not show private in generated documentation
