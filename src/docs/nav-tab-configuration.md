@@ -17,11 +17,15 @@ A tab is defined like this:
 ```
 
 The tab id is used to determine which tab to apply the custom placement and label to. The available tab id's are:
-"info", "readme", "source", "templateData", "tree", and "example".
+__"info"__, __"readme"__, __"source"__, __"templateData"__, __"tree"__, and __"example"__.
 
-Certain tabs will only be shown if applicable to a given dependency. The "info", "readme", and "source" tabs are 
-applicable to all dependency types. "templateData" and "tree" are applicable to Components. And, the "example" tab is 
-applicable to Component, Directive, Injectable, and Pipe dependencies.
+Certain tabs will only be shown if applicable to a given dependency :
+
+- __"info"__, __"readme"__, and __"source"__ tabs are applicable to all dependency types. 
+
+- __"templateData"__ and __"tree"__ are applicable to Components. 
+
+- __"example"__ tab is applicable to Component, Directive, Injectable, and Pipe dependencies.
 
 Additionally, for certain types of tabs, if a dependency doesn't specify content for them they will not be shown even
 if they are specified in the config. For example, dependencies for which no examples are provided will 
