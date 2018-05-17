@@ -7,6 +7,7 @@ compodoc <src> [options]
 |------------|-----------|
 | __ -h, --help __ | output usage information |
 | __ -V, --version __ | output the version number |
+| __ -c, --config [config] __ | A configuration file : .compodocrc, .compodocrc.json, .compodocrc.yaml or compodoc property in package.json |
 | __ -p, --tsconfig [config] __ | A tsconfig.json file |
 | __ -d, --output [folder] __ | Where to store the generated documentation |
 | __ -y, --extTheme [file] __ | External styling theme |
@@ -21,6 +22,7 @@ compodoc <src> [options]
 | __ --theme [theme] __ | Choose one of available themes, default is 'gitbook' (laravel, original, material, postmark, readthedocs, stripe, vagrant) |
 | __ --hideGenerator __ | Do not print the Compodoc logo at the bottom of the page |
 | __ --toggleMenuItems <items> __ | Close by default items in the menu (default ['all']) values : ['all'] or one of these ['modules','components','directives','classes','injectables','interfaces','pipes','additionalPages']) |
+| __ --navTabConfig <tab configs> __ | List navigation tab objects in the desired order with two string properties ("id" and "label"). Double-quotes must be escaped with '\\'. Available tab IDs are "info", "readme", "source", "templateData", "tree", and "example". Note: Certain tabs will only be shown if applicable to a given dependency |
 | __ --includes [path] __ | Path of external markdown files to include
 | __ --includesName [name] __ | Name of item menu of externals markdown files (default "Additional documentation")
 | __ --coverageTest __ | Test command of documentation coverage with a threshold (default 70)
@@ -28,6 +30,7 @@ compodoc <src> [options]
 | __ --coverageTestThresholdFail [boolean] __ | Test command of documentation coverage (global or per file) will fail with error or just warn user (true: error, false: warn) (default: true)
 | __ --disableSourceCode __ | Do not add source code tab and links to source code
 | __ --disableDomTree __ | Do not add dom tree tab
+| __ --disableTemplateTab __ | Do not add template tab
 | __ --disableGraph __ | Disable rendering of the dependency graph
 | __ --disableCoverage __ | Do not add the documentation coverage report
 | __ --disablePrivate __ | Do not show private in generated documentation
