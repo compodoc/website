@@ -1,13 +1,14 @@
-# Customizing tab ordering and labels
+# Customizing tab order and labels
 
-The ordering of tabs as well as the strings used for their labels can be modified by setting the `navTabConfig`
-configuration item either through the compodoc config file or the CLI.
+The ordering of tabs and the text used for their labels can be modified by setting the `navTabConfig`
+configuration item either through a compodoc config file or the CLI.
 
-`navTabConfig` is an array of tab data. The order in which the tab data is listed is the order
-in which the tabs will appear in the compodoc output. And, the string value of the label property
-will appear as the label on the tab itself.
+`navTabConfig` is an array of tab configuration objects representing the superset of tabs that will 
+be shown for the various dependencies in your project. The ordering of the array determines the left-to-right 
+placement of tabs in the compodoc output, and the string value of each tab configuration object's `label` 
+property determines the label displayed on the corresponding tab.
 
-A tab is defined like this:
+## Defining a tab
 
 ```
 {
@@ -19,22 +20,21 @@ A tab is defined like this:
 The tab id is used to determine which tab to apply the custom placement and label to. The available tab id's are:
 __"info"__, __"readme"__, __"source"__, __"templateData"__, __"tree"__, and __"example"__.
 
-Certain tabs will only be shown if applicable to a given dependency :
+## Additional information
 
-- __"info"__, __"readme"__, and __"source"__ tabs are applicable to all dependency types. 
+Certain tabs will only be shown if applicable to a given dependency:
+
+- __"info"__, __"readme"__, and __"source"__ are applicable to all dependency types. 
 
 - __"templateData"__ and __"tree"__ are applicable to Components. 
 
-- __"example"__ tab is applicable to Component, Directive, Injectable, and Pipe dependencies.
+- __"example"__ is applicable to Component, Directive, Injectable, and Pipe dependencies.
 
-Additionally, for certain types of tabs, if a dependency doesn't specify content for them they will not be shown even
-if they are specified in the config. For example, dependencies for which no examples are provided will 
-not have an "example" tab. And, the same behavior applies to the "templateData" and "readme" tabs.
+Additionally, __"example"__, __"readme"__, and __"templateData"__ tabs will only be shown if a 
+dependency specifies content for them. For instance, dependencies for which no examples are provided 
+will not display an example tab.
 
-### Example usage in the config file
-
-The following example shows a list that represents the superset of tabs 
-that will be shown for the various dependencies in your project.
+## Example usage in a configuration file
 
 ```
 {
@@ -60,9 +60,7 @@ that will be shown for the various dependencies in your project.
 }
 ```
 
-### Example usage as a CLI argument
-
-Here is a similar example of `navTabConfig` usage as a CLI argument.
+## Example usage as a CLI argument
 
 Note: Double-quotes must be escaped with "\\".
 
