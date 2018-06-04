@@ -1,51 +1,9 @@
-This is a simple tutorial explaining how you can document your Angular application easily with Compodoc.
+This article by Ionic Academy explain very well how you can use Compodoc inside your project :
 
-We will start with a blank Angular CLI project.
+https://ionicacademy.com/ionic-code-documentation/
 
-# Requirements
+They also created a 10" video :
 
-- Angular CLI
-- Node.js
-- code editor or IDE
-
-# 1. Run Angular CLI
-
-```bash
-ng new compodoc-tutorial
-```
-
-# 2. Install compodoc
-
-```bash
-npm i --save-dev @compodoc/compodoc
-```
-
-Add npm scripts inside `package.json` file for generating the documentation : on for generation, one for serving it, and another combining them :
-
-```json
-...
-
-    "ng": "ng",
-    "doc:build": "compodoc -p src/tsconfig.app.json",
-    "doc:serve": "compodoc -s",
-    "doc:buildandserve": "compodoc -p src/tsconfig.app.json -s",
-    "start": "ng serve",
-
-...
-```
-
-# 3. Run compodoc
-
-```bash
-npm run doc:buildandserve
-```
-
-You should see theses logs in your terminal.
-
-![first-run](../assets/img/tutorial/first-run-terminal.png)
-
-and this in your browser opening http://localhost:8080
-
-![first-run](../assets/img/tutorial/first-run-browser.png)
-
-# Next steps coming soon...
+<iframe title="YouTube video player" class="youtube-player" type="text/html" 
+width="640" height="390" src="http://www.youtube.com/embed/xJSKZ1DE4Go"
+frameborder="0" allowFullScreen></iframe>
