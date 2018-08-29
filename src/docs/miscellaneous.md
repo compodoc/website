@@ -14,6 +14,12 @@ These are some that [we know of](https://github.com/search?q=compodoc+filename%3
 
 # What they think of Compodoc ?
 
+<blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">Just used  <a href="https://twitter.com/hashtag/compodoc?src=hash&amp;ref_src=twsrc%5Etfw">#compodoc</a> in one of our (inherited) projects! Gave me really great overview of what&#39;s going on in the application 😋 Big thanks to <a href="https://twitter.com/vogloblinsky?ref_src=twsrc%5Etfw">@vogloblinsky</a> and everyone who is contributing to this great project! <a href="https://t.co/SW0ZEQwpar">pic.twitter.com/SW0ZEQwpar</a></p>&mdash; Sherry List 🔜 ✈️ 🇨🇴 (@sherrrylst) <a href="https://twitter.com/sherrrylst/status/1022013063749398528?ref_src=twsrc%5Etfw">25 juillet 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">Such a great tool :)<br>Compodoc - The missing documentation tool for your <a href="https://twitter.com/hashtag/Angular?src=hash&amp;ref_src=twsrc%5Etfw">#Angular</a> application <a href="https://t.co/uy6SIoIsI2">https://t.co/uy6SIoIsI2</a> <a href="https://t.co/NFNxREE4R4">pic.twitter.com/NFNxREE4R4</a></p>&mdash; Nir kaufman (@nirkaufman) <a href="https://twitter.com/nirkaufman/status/966865450868109312?ref_src=twsrc%5Etfw">23 février 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 <blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">Compodoc - The missing documentation tool for your Angular application. Need to check out. <a href="https://t.co/iHeQg9Ue3H">https://t.co/iHeQg9Ue3H</a></p>&mdash; David Boster (@davidboster) <a href="https://twitter.com/davidboster/status/960279567121383424?ref_src=twsrc%5Etfw">4 février 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

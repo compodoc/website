@@ -24,11 +24,14 @@ compodoc <src> [options]
 | __--hideGenerator__ | Do not print the Compodoc logo at the bottom of the page |
 | __--toggleMenuItems <items>__ | Close by default items in the menu (default ['all']) values : ['all'] or one of these ['modules','components','directives','classes','injectables','interfaces','pipes','additionalPages']) |
 | __--navTabConfig <tab configs>__ | List navigation tab objects in the desired order with two string properties ("id" and "label"). Double-quotes must be escaped with '\\'. Available tab IDs are "info", "readme", "source", "templateData", "tree", and "example". Note: Certain tabs will only be shown if applicable to a given dependency |
+| __--templates [folder]__ | Path to directory of Handlebars templates to override built-in templates
 | __--includes [path]__ | Path of external markdown files to include
 | __--includesName [name]__ | Name of item menu of externals markdown files (default "Additional documentation")
 | __--coverageTest__ | Test command of documentation coverage with a threshold (default 70)
 | __--coverageMinimumPerFile [minimum]__ | Test command of documentation coverage per file with a minimum (default 0)
 | __--coverageTestThresholdFail [boolean]__ | Test command of documentation coverage (global or per file) will fail with error or just warn user (true: error, false: warn) (default: true)
+| __--coverageTestShowOnlyFailed__ | Display only failed files for a coverage test
+| __--unitTestCoverage [json-summary]__ | To include unit test coverage, specify istanbul JSON coverage summary file
 | __--disableSourceCode__ | Do not add source code tab and links to source code
 | __--disableDomTree__ | Do not add dom tree tab
 | __--disableTemplateTab__ | Do not add template tab
@@ -39,6 +42,8 @@ compodoc <src> [options]
 | __--disableInternal__ | Do not show @internal in generated documentation
 | __--disableLifeCycleHooks__ | Do not show Angular lifecycle hooks in generated documentation
 | __--disableRoutesGraph__ | Do not add the routes graph
+| __--disableSearch__ | Do not add the search input
+| __--minimal__ | Minimal mode with only documentation. No search, no graph, no coverage.
 | __--customFavicon [path]__ | Use a custom favicon
 | __--gaID [id]__ | Google Analytics tracking ID
 | __--gaSite [site]__ | Google Analytics site name (default auto (default: auto)
