@@ -1,31 +1,31 @@
 # Default (gitbook)
 
-![theme-gitbook](https://raw.githubusercontent.com/compodoc/compodoc/master/screenshots/theme-gitbook.png)
+![theme-gitbook](https://raw.githubusercontent.com/compodoc/website/develop/src/assets/img/themes/theme-gitbook.png)
 
 # Material design
 
-![theme-material](https://raw.githubusercontent.com/compodoc/compodoc/master/screenshots/theme-material.png)
+![theme-material](https://raw.githubusercontent.com/compodoc/website/develop/src/assets/img/themes/theme-material.png)
 
 # Laravel
 
-![theme-laravel](https://raw.githubusercontent.com/compodoc/compodoc/master/screenshots/theme-laravel.png)
+![theme-laravel](https://raw.githubusercontent.com/compodoc/website/develop/src/assets/img/themes/theme-laravel.png)
 
 # Readthedocs
 
-![theme-readthedocs](https://raw.githubusercontent.com/compodoc/compodoc/master/screenshots/theme-readthedocs.png)
+![theme-readthedocs](https://raw.githubusercontent.com/compodoc/website/develop/src/assets/img/themes/theme-readthedocs.png)
 
 # Stripe
 
-![theme-stripe](https://raw.githubusercontent.com/compodoc/compodoc/master/screenshots/theme-stripe.png)
+![theme-stripe](https://raw.githubusercontent.com/compodoc/website/develop/src/assets/img/themes/theme-stripe.png)
 
 # Vagrant
 
-![theme-vagrant](https://raw.githubusercontent.com/compodoc/compodoc/master/screenshots/theme-vagrant.png)
+![theme-vagrant](https://raw.githubusercontent.com/compodoc/website/develop/src/assets/img/themes/theme-vagrant.png)
 
 # Postmark
 
-![theme-postmark](https://raw.githubusercontent.com/compodoc/compodoc/master/screenshots/theme-postmark.png)
+![theme-postmark](https://raw.githubusercontent.com/compodoc/website/develop/src/assets/img/themes/theme-postmark.png)
 
 # Original (first theme of 2016)
 
-![theme-original](https://raw.githubusercontent.com/compodoc/compodoc/master/screenshots/theme-original.png)
+![theme-original](https://raw.githubusercontent.com/compodoc/website/develop/src/assets/img/themes/theme-original.png)

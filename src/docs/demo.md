@@ -12,32 +12,32 @@ Below are screenshots of generated documentation for this project [SoundCloud AP
 
 ## README page
 
-![screenshot-1](https://raw.githubusercontent.com/compodoc/compodoc/master/screenshots/1.png)
+![screenshot-1](https://raw.githubusercontent.com/compodoc/website/develop/src/assets/img/screenshots/1.png)
 
 ## Overview page
 
-![screenshot-2](https://raw.githubusercontent.com/compodoc/compodoc/master/screenshots/2.png)
+![screenshot-2](https://raw.githubusercontent.com/compodoc/website/develop/src/assets/img/screenshots/2.png)
 
 ## Modules page
 
-![screenshot-3](https://raw.githubusercontent.com/compodoc/compodoc/master/screenshots/3.png)
+![screenshot-3](https://raw.githubusercontent.com/compodoc/website/develop/src/assets/img/screenshots/3.png)
 
 ## Single module page
 
-![screenshot-4](https://raw.githubusercontent.com/compodoc/compodoc/master/screenshots/4.png)
+![screenshot-4](https://raw.githubusercontent.com/compodoc/website/develop/src/assets/img/screenshots/4.png)
 
 ## Component page
 
-![screenshot-5](https://raw.githubusercontent.com/compodoc/compodoc/master/screenshots/5.png)
+![screenshot-5](https://raw.githubusercontent.com/compodoc/website/develop/src/assets/img/screenshots/5.png)
 
 ## Source code tab
 
-![screenshot-6](https://raw.githubusercontent.com/compodoc/compodoc/master/screenshots/7.png)
+![screenshot-7](https://raw.githubusercontent.com/compodoc/website/develop/src/assets/img/screenshots/7.png)
 
 ## Search page
 
-![screenshot-7](https://raw.githubusercontent.com/compodoc/compodoc/master/screenshots/6.png)
+![screenshot-6](https://raw.githubusercontent.com/compodoc/website/develop/src/assets/img/screenshots/6.png)
 
 ## Coverage report
 
-![screenshot-8](https://raw.githubusercontent.com/compodoc/compodoc/master/screenshots/8.png)
+![screenshot-8](https://raw.githubusercontent.com/compodoc/website/develop/src/assets/img/screenshots/8.png)
