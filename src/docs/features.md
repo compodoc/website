@@ -1,6 +1,8 @@
+-   **Support** — [Angular](https://angular.io/), [NestJS](https://nestjs.com/) & [Stencil](https://stenciljs.com/)
+
 -   **Clean, simple design** — With Compodoc, the main endpoints are on the left side of your documentation, and all the content on the right side
 
--   **Beautiful themes** — [7 themes](./themes.html) are available from famous documentation tools like [Gitbook](https://www.gitbook.com), [Read the Docs](https://readthedocs.org/) or projects like [Vagrant](https://www.vagrantup.com/docs/), [Laravel](https://laravel.com/docs/5.3), [Postmark](http://developer.postmarkapp.com/), [Material design](https://material.io/) and [Stripe](https://stripe.com/docs/api).
+-   **Beautiful themes** — [8 themes](./themes.html) are available from famous documentation tools like [Gitbook](https://www.gitbook.com), [Read the Docs](https://readthedocs.org/) or projects like [Vagrant](https://www.vagrantup.com/docs/), [Laravel](https://laravel.com/docs/5.3), [Postmark](http://developer.postmarkapp.com/), [Material design](https://material.io/) and [Stripe](https://stripe.com/docs/api).
 
 -   **i18n** — 4 languages available : en-US, fr-FR, zh-CN, pt-BR
 
