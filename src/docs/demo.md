@@ -10,6 +10,10 @@ It is the documentation generated for this demo project which is a simple [TodoM
 
 It is the documentation generated for this demo project which is a [RealWorld example app](https://github.com/compodoc/compodoc-demo-nestjs).
 
+-   [Stencil](https://compodoc.github.io/compodoc-demo-stencil/)
+
+It is the documentation generated for this demo project which is a [Stencil example app](https://github.com/compodoc/compodoc-demo-stencil).
+
 # Screenshots
 
 Below are screenshots of generated documentation for this project [SoundCloud API client](https://github.com/r-park/soundcloud-ngrx) and default theme (gitbook)
