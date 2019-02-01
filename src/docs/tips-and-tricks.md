@@ -14,15 +14,15 @@
 compodoc -p src/tsconfig.json -y your_theme_styles/
 ```
 
-Inside your folder you need to provide at least a style.css file with these 5 imports as below.
+Inside your folder you need to provide at least a style.css file with these 7 imports as below.
 
 ```
 @import "./reset.css";
 @import "./bootstrap.min.css";
 @import "./bootstrap-card.css";
-@import "./font-awesome.min.css";
-@import "./compodoc.css";
 @import "./prism.css";
+@import "./ionicons.min.css";
+@import "./compodoc.css";
 @import "./tablesort.css";
 ```
 
