@@ -51,6 +51,14 @@ compodoc <src> [options]
 | **--gaID [id]**                           | Google Analytics tracking ID                                                                                                                                                                                                                                                                                |
 | **--gaSite [site]**                       | Google Analytics site name (default auto (default: auto)                                                                                                                                                                                                                                                    |
 
+# Configuration file
+
+You can provide a configuration file in the root of your project folder.
+
+Compodoc will search files like : .compodocrc, .compodocrc.json, .compodocrc.yaml or a compodoc property in your package.json
+
+A JSON schema is available here : `./node_modules/@compodoc/compodoc/src/config/schema.json`
+
 # Options, quotes and Windows usage
 
 Keep in mind that using options with multiple words need quotes around your sentence.
