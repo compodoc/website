@@ -6,7 +6,7 @@
     width: 100%;
 }
 
-.mdl-layout--fixed-drawer > .mdl-layout__header .mdl-layout__header-row {
+.mdl-layout--fixed-drawer>.mdl-layout__header .mdl-layout__header-row {
     $header-logo-padding: 25px;
     padding-left: $header-logo-padding;
     padding-right: 0;
@@ -19,7 +19,7 @@
 
 @media (max-width: 1024px) {
     .mdl-layout__drawer {
-        margin-top:0;
+        margin-top: 0;
         height: 100%
     }
 }
@@ -40,7 +40,7 @@
 
 .selected {
     background-color: #E0E0E0;
-    color: #235aaa!important;
+    color: #235aaa !important;
     font-weight: 600
 }
 
@@ -48,7 +48,8 @@
     font-size: 13px;
 }
 
-.mdl-mega-footer--bottom-section,.mdl-mega-footer__bottom-section {
+.mdl-mega-footer--bottom-section,
+.mdl-mega-footer__bottom-section {
     background-color: $primary-color;
     bottom: 0;
     color: white;
@@ -88,34 +89,35 @@
 
 .mdl-navigation__link--title {
     margin-right: 10px;
+
     img {
         height: 56px;
     }
 }
 
 .mdl-navigation__link {
-  $link-font-size: 16px;
+    $link-font-size: 16px;
 
-  font-size: $link-font-size;
-  text-transform: uppercase;
-  text-decoration: none;
+    font-size: $link-font-size;
+    text-transform: uppercase;
+    text-decoration: none;
 
-  &:hover {
-    background-color: $secondary-color;
-  }
+    &:hover {
+        background-color: $secondary-color;
+    }
 }
 
 .mdl-layout__header {
-  background-color: $primary-color;
+    background-color: $primary-color;
 
-  a {
-    color: $neutral-white;
-    text-decoration: none;
-  }
+    a {
+        color: $neutral-white;
+        text-decoration: none;
+    }
 }
 
 .mdl-layout__drawer-button {
-    color: rgb(255,255,255);
+    color: rgb(255, 255, 255);
     margin-top: 8px;
 }
 
@@ -126,16 +128,17 @@
     text-transform: uppercase
 }
 
-.mdl-layout__title,.mdl-layout-title {
+.mdl-layout__title,
+.mdl-layout-title {
     font-size: 16px;
     line-height: 28px;
     letter-spacing: 0.02em
 }
 
 .hero-background {
-    background: -webkit-linear-gradient(#1e4b8e,#2a6ccc);
-    background: linear-gradient(#1e4b8e,#2a6ccc);
-    color: rgb(255,255,255);
+    background: -webkit-linear-gradient(#1e4b8e, #2a6ccc);
+    background: linear-gradient(#1e4b8e, #2a6ccc);
+    color: rgb(255, 255, 255);
 }
 
 .hero-background h4 {
@@ -145,7 +148,7 @@
 }
 
 .mdl-grid {
-  align-items: center;
+    align-items: center;
 }
 
 .mdl-grid--no-spacing>.mdl-cell {
@@ -190,7 +193,8 @@
     overflow-x: scroll
 }
 
-.markdown-doc pre,.markdown-doc code {
+.markdown-doc pre,
+.markdown-doc code {
     overflow-x: scroll;
     background-color: #f5f6f7
 }
@@ -206,13 +210,13 @@
 
 @media (max-width: 1023px) {
     .hero-background h4 {
-        font-size:20px;
+        font-size: 20px;
         margin: 10px 0 10px 30px;
         padding-left: 24px
     }
 
     .site-header {
-        margin-left:32px
+        margin-left: 32px
     }
 }
 
@@ -225,12 +229,12 @@
         width: 100%;
 
 
-@media screen and (min-width: 1024px) {
-    .mdl-layout--fixed-drawer>.mdl-layout__drawer {
-        -webkit-transform:translateX(0);
-        transform: translateX(0)
-    }
-}
+        @media screen and (min-width: 1024px) {
+            .mdl-layout--fixed-drawer>.mdl-layout__drawer {
+                -webkit-transform: translateX(0);
+                transform: translateX(0)
+            }
+        }
 
         label {
             $padding: 16px;
@@ -257,7 +261,7 @@
         }
     }
 
-    input:checked + .top-nav-wrapper {
+    input:checked+.top-nav-wrapper {
         label {
             background: $secondary-color;
         }
@@ -269,5 +273,15 @@
 }
 
 .youtube-player {
-	width: 640px;
+    width: 640px;
+}
+
+.mdl-layout__drawer {
+    width: 315px;
+    -webkit-transform: translateX(-315px);
+    transform: translateX(-315px);
+}
+
+.mdl-layout__content {
+    margin-left: 315px;
 }
