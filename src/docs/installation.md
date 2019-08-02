@@ -44,6 +44,12 @@ and run it like a normal npm script :
 npm run compodoc
 ```
 
+or with npx :
+
+```bash
+npx @compodoc/compodoc ...
+```
+
 See [usage](./usage.html) for more details.
 
 # Position of tsconfig file in codebase
