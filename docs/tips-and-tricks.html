@@ -1,0 +1,79 @@
+<h1>Table of Contents</h1><ul>
+<li><a href="#styling-the-documentation">Styling the documentation</a></li>
+<li><a href="#documentation-of-each-components">Documentation of each component, module, directives etc</a></li>
+<li><a href="#additional-documentation">Additional documentation</a></li>
+<li><a href="#documentation-of-several-apps-in-a-monorepository">Documentation of several apps in a monorepository</a></li>
+<li><a href="#syntax-highlighting-in-markdown-files">Syntax highlighting in markdown files</a></li>
+<li><a href="#excluding-files">Excluding files</a></li>
+<li><a href="#including-files">Including files</a></li>
+</ul>
+<p><a id="styling-the-documentation"></a></p>
+<h1>Styling the documentation</h1><pre><code>compodoc -p src/tsconfig.json -y your_theme_styles/</code></pre><p>Inside your folder you need to provide at least a style.css file with these 7 imports as below.</p>
+<pre><code>@import &quot;./reset.css&quot;;
+@import &quot;./bootstrap.min.css&quot;;
+@import &quot;./bootstrap-card.css&quot;;
+@import &quot;./prism.css&quot;;
+@import &quot;./ionicons.min.css&quot;;
+@import &quot;./compodoc.css&quot;;
+@import &quot;./tablesort.css&quot;;</code></pre><p>Compodoc use <a href="http://getbootstrap.com/">bootstrap</a> 3.3.7. You can customize Compodoc easily.</p>
+<p><a href="http://bootswatch.com/">bootswatch.com</a> can be a good starting point. If you want to override the default theme, just provide a bootstrap.min.css file, and it will override the default one.</p>
+<pre><code>└── your_theme_styles/
+    ├── style.css // the main css file with default imports
+    └── bootstrap.min.css // your bootstrap theme</code></pre><p><a id="documentation-of-each-components"></a></p>
+<h1>Documentation of each component, module, directives etc</h1><p>A comment description in <strong>xxx.component.ts</strong> file, between JSDoc comments can be a little short.</p>
+<p>Compodoc search for a default <strong>xxx.component.md</strong> file inside the root folder of each component, and add it inside a tab in the component page. It is the same for class, module etc.</p>
+<pre><code>└── my-component/
+    ├── my.component.ts
+    ├── my.component.spec.ts
+    ├── my.component.scss|css
+    ├── my.component.html
+    └── my.component.md</code></pre><p><a id="additional-documentation"></a></p>
+<h1>Additional documentation</h1><p>Compodoc support the addition of external markdown files for extending the code comments of your application and the main README file.</p>
+<p>Create a folder containing markdown files and use <code>--includes</code> flag to extend the documentation.
+Your folder should contain a <strong>summary.json</strong> file explaining the structure and files :</p>
+<pre><code>summary.json
+
+[
+    {
+        &quot;title&quot;: &quot;A TITLE&quot;,
+        &quot;file&quot;: &quot;a-file.md&quot;
+    },
+    {
+        &quot;title&quot;: &quot;A TITLE&quot;,
+        &quot;file&quot;: &quot;a-file.md&quot;,
+        &quot;children&quot;: [
+            {
+                &quot;title&quot;: &quot;A TITLE&quot;,
+                &quot;file&quot;: &quot;a-sub-folder/a-file.md&quot;
+            }
+        ]
+    }
+]</code></pre><p>Links are supported like regular markdown links.</p>
+<p><a id="documentation-of-several-apps-in-a-monorepository"></a></p>
+<h1>Documentation of several apps in a monorepository</h1><p><a href="https://github.com/nrwl/nx">Nrwl Extensions for Angular</a> is a toolkit for enterprise Angular applications. It provides an opinionated approach to application project structure and patterns.</p>
+<p>A monorepository with multiple apps could easily be documentated by Compodoc. You just have to run Compodoc in each apps seperately. Here is an example with <a href="https://github.com/nrwl/nx-examples">nx-examples</a> :</p>
+<pre><code>.
+├── apps
+│   ├── demo
+│   │   └── src
+│   │       └── tsconfig.app.json
+│   ├── profile
+│   ├── school
+│   └── teach
+└── README.md</code></pre><p>Just run Compodoc like that :</p>
+<pre><code class="language-bash">cd apps/demo/src
+compodoc -p tsconfig.app.json -s
+
+// or
+
+compodoc -p apps/demo/src/tsconfig.app.json -s</code></pre>
+<p><a id="syntax-highlighting-in-markdown-files"></a></p>
+<h1>Syntax highlighting in markdown files</h1><p>Compodoc use <a href="https://github.com/chjj/marked">Marked</a> for markdown parsing and compiling to html. <a href="http://prismjs.com/">prismjs.js</a> has been added for supporting syntax highlighting.</p>
+<p>Just use a normal code block in your markdown with correct language : <a href="https://help.github.com/articles/creating-and-highlighting-code-blocks/">Github help</a></p>
+<p>The integrated languages are : <strong>json, bash, javascript, markdown, html, scss, typescript</strong></p>
+<p><a id="excluding-files"></a></p>
+<h1>Excluding files</h1><p>For excluding files from the documentation, simply use the <strong>exclude</strong> property of <a href="https://www.typescriptlang.org/docs/handbook/tsconfig-json.html"><strong>tsconfig.json</strong></a> file.</p>
+<p>You can exclude specific file with name <code>app/myfile.ts</code> or with glob pattern <code>**/*.spec.ts</code>.</p>
+<p><a id="including-files"></a></p>
+<h1>Including files</h1><p>For including files from the documentation, simply use the <strong>include</strong> property of <a href="https://www.typescriptlang.org/docs/handbook/tsconfig-json.html"><strong>tsconfig.json</strong></a> file.</p>
+<p>You can include specific file with name <code>app/myfile.ts</code> or with glob pattern <code>**/*.ts</code>.</p>

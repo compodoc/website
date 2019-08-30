@@ -1,0 +1,45 @@
+<h1>Customizing tab order and labels</h1><p>The ordering of the tabs and the text used for their labels can be modified by setting the <code>navTabConfig</code>
+input either as a property in a compodoc configuration file or as an argument to the <code>compodoc</code> CLI command.</p>
+<p>The <code>navTabConfig</code> input is an array of tab configuration objects representing the superset of tabs that will 
+be shown for the various dependencies in your project. The ordering of the array determines the left-to-right 
+placement of the tabs in the compodoc output, and the string value of a tab object&#39;s <code>label</code> 
+property determines the label displayed on the corresponding tab.</p>
+<h1>Defining a tab</h1><pre><code>{
+  &quot;id&quot;: &quot;info&quot;,
+  &quot;label&quot;: &quot;Custom Label&quot;
+}</code></pre><p>The tab id is used to determine which tab to apply the custom placement and label to. The available tab id&#39;s are:
+<strong>&quot;info&quot;</strong>, <strong>&quot;readme&quot;</strong>, <strong>&quot;source&quot;</strong>, <strong>&quot;templateData&quot;</strong>, <strong>&quot;tree&quot;</strong>, and <strong>&quot;example&quot;</strong>.</p>
+<h1>Things to be aware of</h1><p>Certain tabs will only be shown if applicable to a given dependency:</p>
+<ul>
+<li><p><strong>&quot;info&quot;</strong>, <strong>&quot;readme&quot;</strong>, and <strong>&quot;source&quot;</strong> tabs are applicable to all dependency types. </p>
+</li>
+<li><p><strong>&quot;templateData&quot;</strong> and <strong>&quot;tree&quot;</strong> tabs are applicable to Components. </p>
+</li>
+<li><p>The <strong>&quot;example&quot;</strong> tab is applicable to Component, Directive, Injectable, and Pipe dependencies.</p>
+</li>
+</ul>
+<p>Additionally, the <strong>&quot;example&quot;</strong>, <strong>&quot;readme&quot;</strong>, and <strong>&quot;templateData&quot;</strong> tabs will only be shown for dependencies
+that specify content for them. For instance, dependencies for which no examples are provided will not have an 
+example tab.</p>
+<h1>Example usage in a configuration file</h1><pre><code>{
+    &quot;navTabConfig&quot;: [
+        {
+            &quot;id&quot;: &quot;example&quot;,
+            &quot;label&quot;: &quot;Overview&quot;
+        },
+        {
+            &quot;id&quot;: &quot;info&quot;,
+            &quot;label&quot;: &quot;API&quot;
+        },
+        {
+            &quot;id&quot;: &quot;source&quot;,
+            &quot;label&quot;: &quot;Source&quot;
+        },
+        {
+            &quot;id&quot;: &quot;tree&quot;,
+            &quot;label&quot;: &quot;DOM Tree&quot;
+        }
+    ],
+    &quot;tsconfig&quot;: &quot;./src/tsconfig.json&quot;
+}</code></pre><h1>Example usage as a CLI argument</h1><p>Note: Double-quotes must be escaped with &quot;\&quot;.</p>
+<pre><code> compodoc --navTabConfig &#39;[{\&quot;id\&quot;: \&quot;example\&quot;,\&quot;label\&quot;: \&quot;Overview\&quot;},{\&quot;id\&quot;: \&quot;info\&quot;,\&quot;label\&quot;: \&quot;API\&quot;},{\&quot;id\&quot;: \&quot;source\&quot;,\&quot;label\&quot;: \&quot;Source\&quot;}]&#39; -p src/tsconfig.json -n &#39;Documentation Name&#39; -s</code></pre>

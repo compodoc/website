@@ -1,0 +1,28 @@
+<h1>Node.js versions</h1><p>Compodoc is tested with only LTS versions : v8.x, v6.x &amp; v4.x ; and support also Node.js v9.x &amp; v10.x</p>
+<h1>Angular-CLI</h1><p>Compodoc supports last Angular-CLI version : 7.x</p>
+<p>Just run Compodoc in a fresh or existing project.</p>
+<h1>Global installation</h1><p>Install from npm :</p>
+<pre><code class="language-bash">npm install -g @compodoc/compodoc</code></pre>
+<p>If you use PowerShell on Windows, add quotes :</p>
+<pre><code class="language-bash">npm install -g &quot;@compodoc/compodoc&quot;</code></pre>
+<h1>Local installation</h1><pre><code class="language-bash">npm install --save-dev @compodoc/compodoc</code></pre>
+<h1>Run</h1><p>Define a script task for it in your package.json (with npm 6.x) :</p>
+<pre><code class="language-bash">&quot;scripts&quot;: {
+  &quot;compodoc&quot;: &quot;npx compodoc -p src/tsconfig.app.json&quot;
+}</code></pre>
+<p>and run it like a normal npm script :</p>
+<pre><code class="language-bash">npm run compodoc</code></pre>
+<p>or with npx :</p>
+<pre><code class="language-bash">npx @compodoc/compodoc ...</code></pre>
+<p>See <a href="./usage.html">usage</a> for more details.</p>
+<h1>Position of tsconfig file in codebase</h1><p>Compodoc start at the folder level of the tsconfig file provided with <code>-p</code> option.</p>
+<p>Example for an Angular CLI project :</p>
+<pre><code>.
+├── src
+│ ├── app
+│ │ ├── app.component.ts
+│ │ └── app.module.ts
+│ ├── main.ts
+│ ├── ...
+│ └── tsconfig.app.json
+└── tsconfig.json</code></pre><pre><code class="language-bash">compodoc -p src/tsconfig.app.json</code></pre>

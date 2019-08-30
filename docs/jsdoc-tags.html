@@ -1,0 +1,104 @@
+<h1>JSDoc tags</h1><p>Currently Compodoc only support these JSDoc tags (due to <a href="https://github.com/Microsoft/TypeScript/wiki/JSDoc-support-in-JavaScript">TypeScript compiler limitations</a>) :</p>
+<ul>
+<li><code>@returns {Type} Description</code></li>
+</ul>
+<pre><code class="language-js">/**
+ * @param {string} target  The target to process
+ * @returns The processed target number
+ */
+function processTarget(target:string):number;</code></pre>
+<ul>
+<li><code>@ignore</code></li>
+</ul>
+<p>The @ignore tag indicates that a symbol in your code should never appear in the documentation.</p>
+<p>It works inside a class, component or injectable, but also for the entire component.</p>
+<pre><code class="language-js">/**
+ * @ignore
+ */
+@Component({
+    selector: &#39;app-root&#39;,
+    templateUrl: &#39;./app.component.html&#39;,
+    styleUrls: [&#39;./app.component.css&#39;]
+})
+export class AppComponent {}</code></pre>
+<pre><code class="language-js">/**
+ * Footer component
+ */
+@Component({
+    selector: &#39;the-footer&#39;,
+    templateUrl: &#39;./footer.component.html&#39;,
+    styleUrls: [&#39;./footer.component.css&#39;]
+})
+export class FooterComponent {
+    /**
+     * @ignore
+     */
+    ignoredProperty: string;
+
+    /**
+     * @ignore
+     */
+    @Input() ignoredInput: string;
+
+    /**
+     * @ignore
+     */
+    @Output() ignoredOutput;
+
+    /**
+     * @ignore
+     */
+    ignoredFunction() {}
+}</code></pre>
+<ul>
+<li><code>@param {Type} Name Description</code></li>
+</ul>
+<pre><code class="language-js">/**
+ * @example
+ * This is a good example
+ * processTarget(&#39;yo&#39;)
+ *
+ * @param {string} target  The target to process see {@link Todo}
+ * @returns The processed target number
+ */
+function processTarget(target:string):number;</code></pre>
+<ul>
+<li><code>@link</code> : you can use these three syntax like JSDoc:</li>
+</ul>
+<pre><code class="language-js">//for an internal reference
+
+{@link Todo}
+[Todo]{@link Todo}
+{@link Todo|TodoClass}
+
+Anchors are supported : [Todo]{@link Todo#myproperty}
+
+//for an external link
+
+[Google]{@link http://www.google.com}
+{@link http://www.apple.com|Apple}
+{@link https://github.com GitHub}</code></pre>
+<ul>
+<li><code>@example</code> : for giving an example on directives, components and pipes decorators, use @example or markdown :</li>
+</ul>
+<p><strong>INDENTATION WARNING</strong> : TypeScript has an internal margin for new lines, if you want to keep a level of indentation, put a minimum of 13 space characters like in the next example.</p>
+<pre><code class="language-js">/**
+ * Shows all events on a given day. Example usage:
+ *
+ * `` `
+ * &amp;lt;mwl-calendar-day-view
+ *             [viewDate]=&quot;viewDate&quot;
+ *             [events]=&quot;events&quot;&amp;gt;
+ * &amp;lt;/mwl-calendar-day-view&amp;gt;
+ * `` `
+ */
+
+ /**
+  * Shows all events on a given day. Example usage:
+  *
+  * @example
+  * &lt;mwl-calendar-day-view
+  *             [viewDate]=&quot;viewDate&quot;
+  *             [events]=&quot;events&quot;&gt;
+  * &lt;/mwl-calendar-day-view&gt;
+  */</code></pre>

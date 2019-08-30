@@ -1,0 +1,18 @@
+<h1>General information</h1><p>Documentation coverage is calculated only for all statement of the file, even decorators.</p>
+<p>Private functions are not part of the calculation.</p>
+<p>The command <code>--coverageTest</code> gives the ability to test under a CI context the level of documentation coverage.</p>
+<p><img src="../assets/img/screenshots/8.png" alt="screenshot"></p>
+<p>The command <code>--coverageTestThresholdFail</code> gives the ability to specify if command will fail with error or just warn user (true: error, false: warn) (default: true)</p>
+<p>The command <code>--coverageMinimumPerFile</code> gives the ability to specify a minimum of coverage per file.</p>
+<h2>Test coverage during commit process</h2><ol>
+<li>install first <a href="https://github.com/okonet/lint-staged">lint-staged</a> : <code>npm i -d lint-staged</code></li>
+<li>add the configuration inside your <code>package.json</code> file :</li>
+</ol>
+<pre><code class="language-json">&quot;devDependencies&quot;: {
+    ...
+},
+&quot;lint-staged&quot;: {
+    &quot;linters&quot;: {
+        &quot;*.ts&quot;: [&quot;compodoc --coverageMinimumPerFile 25&quot;]
+    }
+}</code></pre>

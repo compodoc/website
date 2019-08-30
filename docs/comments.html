@@ -1,0 +1,25 @@
+<h1>General information</h1><p>Compodoc use Typescript AST parser and it&#39;s internal APIs, so the comments have to be JSDoc comments :</p>
+<pre><code class="language-js">/**
+ * Supported comment
+ */</code></pre>
+<p>These ones are not supported :</p>
+<pre><code class="language-js">/*
+ * unsupported comment
+ */
+
+/*
+  unsupported comment
+ */
+
+// unsupported comment</code></pre>
+<p>New lines are created inside a comment with a blank line between two lines.</p>
+<pre><code class="language-js">/**
+ * First line
+ *
+ * Second line
+ */</code></pre>
+<p>The example below will produce only one line in the outputed documentation.</p>
+<pre><code class="language-js">/**
+ * First line
+ * Second line
+ */</code></pre>
