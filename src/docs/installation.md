@@ -34,7 +34,7 @@ Define a script task for it in your package.json (with npm 6.x) :
 
 ```bash
 "scripts": {
-  "compodoc": "npx compodoc -p src/tsconfig.app.json"
+  "compodoc": "npx compodoc -p tsconfig.app.json src"
 }
 ```
 
@@ -65,11 +65,11 @@ Example for an Angular CLI project :
 │ │ ├── app.component.ts
 │ │ └── app.module.ts
 │ ├── main.ts
-│ ├── ...
-│ └── tsconfig.app.json
+│ └── ...
+├── tsconfig.app.json
 └── tsconfig.json
 ```
 
 ```bash
-compodoc -p src/tsconfig.app.json
+compodoc -p tsconfig.app.json src
 ```

@@ -19,7 +19,7 @@ Using npm scripts, the command is hosted in package.json file. Don't forget to e
 ```bash
 {
    ...
-   "doc": "npx compodoc -p src/tsconfig.app.json -n \"My app documentation\""
+   "doc": "npx compodoc -p tsconfig.app.json -n \"My app documentation\" src"
    ...
 }
 ```

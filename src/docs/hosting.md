@@ -4,4 +4,4 @@ Once you have the documentation generated inside an output folder, you can host 
 
 ## Github pages
 
-Follow this gret tutorial : https://voorhoede.github.io/front-end-tooling-recipes/travis-deploy-to-gh-pages/
+Follow this great tutorial : https://voorhoede.github.io/front-end-tooling-recipes/travis-deploy-to-gh-pages/
