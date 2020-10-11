@@ -8,7 +8,7 @@
 <h1>Local installation</h1><pre><code class="language-bash">npm install --save-dev @compodoc/compodoc</code></pre>
 <h1>Run</h1><p>Define a script task for it in your package.json (with npm 6.x) :</p>
 <pre><code class="language-bash">&quot;scripts&quot;: {
-  &quot;compodoc&quot;: &quot;npx compodoc -p src/tsconfig.app.json&quot;
+  &quot;compodoc&quot;: &quot;npx compodoc -p tsconfig.app.json src&quot;
 }</code></pre>
 <p>and run it like a normal npm script :</p>
 <pre><code class="language-bash">npm run compodoc</code></pre>
@@ -23,6 +23,6 @@
 │ │ ├── app.component.ts
 │ │ └── app.module.ts
 │ ├── main.ts
-│ ├── ...
-│ └── tsconfig.app.json
-└── tsconfig.json</code></pre><pre><code class="language-bash">compodoc -p src/tsconfig.app.json</code></pre>
+│ └── ...
+├── tsconfig.app.json
+└── tsconfig.json</code></pre><pre><code class="language-bash">compodoc -p tsconfig.app.json src</code></pre>
