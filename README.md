@@ -30,3 +30,9 @@ harp server src
 ```
 
 Open http://localhost:9000/ in your web browser.
+
+# Build
+
+```
+npm run build
+```
