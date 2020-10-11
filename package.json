@@ -1,0 +1,21 @@
+{
+    "name": "compodoc-website",
+    "version": "1.0.0",
+    "scripts": {
+        "build": "./node_modules/.bin/harp compile src documentation"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/compodoc/website.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/compodoc/website/issues"
+    },
+    "homepage": "https://github.com/compodoc/website#readme",
+    "devDependencies": {
+        "harp": "^0.32.0"
+    }
+}
