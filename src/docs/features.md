@@ -4,7 +4,7 @@
 
 -   **Beautiful themes** — [8 themes](./themes.html) are available from famous documentation tools like [Gitbook](https://www.gitbook.com), [Read the Docs](https://readthedocs.org/) or projects like [Vagrant](https://www.vagrantup.com/docs/), [Laravel](https://laravel.com/docs/5.3), [Postmark](http://developer.postmarkapp.com/), [Material design](https://material.io/) and [Stripe](https://stripe.com/docs/api).
 
--   **i18n** — 4 languages available : en-US, fr-FR, zh-CN, pt-BR
+-   **i18n** — Many languages available : de-DE, en-US, es-ES, fr-FR, hu-HU, it-IT, ja-JP, nl-NL, pl-PL, pt-BR, sk-SK, zh-CN
 
 -   **Search** — Compodoc include a powerful search engine ([lunr.js](http://lunrjs.com/)) for easily finding your information
 
