@@ -16,6 +16,6 @@
     },
     "homepage": "https://github.com/compodoc/website#readme",
     "devDependencies": {
-        "harp": "^0.32.0"
+        "harp": "^0.33.0"
     }
 }
