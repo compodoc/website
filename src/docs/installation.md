@@ -30,11 +30,20 @@ npm install --save-dev @compodoc/compodoc
 
 # Run
 
+Create a file named `tsconfig.doc.json`, containing a key `include` pointing to `src` folder, you can also use `exclude` key :
+
+```
+{
+  "include": ["src/**/*.ts"],
+  "exclude": ["src/test.ts", "src/**/*.spec.ts", "src/app/file-to-exclude.ts"]
+}
+```
+
 Define a script task for it in your package.json (with npm 6.x) :
 
 ```bash
 "scripts": {
-  "compodoc": "npx compodoc -p tsconfig.app.json src"
+  "compodoc": "npx compodoc -p tsconfig.doc.json"
 }
 ```
 
@@ -67,9 +76,6 @@ Example for an Angular CLI project :
 │ ├── main.ts
 │ └── ...
 ├── tsconfig.app.json
+├── tsconfig.doc.json
 └── tsconfig.json
-```
-
-```bash
-compodoc -p tsconfig.app.json src
 ```

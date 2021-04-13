@@ -9,9 +9,11 @@
 - [Including files](#including-files)
 
 <a id="styling-the-documentation"></a>
+
 # Styling the documentation
+
 ```
-compodoc -p src/tsconfig.json -y your_theme_styles/
+compodoc -p tsconfig.doc.json -y your_theme_styles/
 ```
 
 Inside your folder you need to provide at least a style.css file with these 7 imports as below.
@@ -37,11 +39,12 @@ Compodoc use [bootstrap](http://getbootstrap.com/) 3.3.7. You can customize Comp
 ```
 
 <a id="documentation-of-each-components"></a>
+
 # Documentation of each component, module, directives etc
 
-A comment description in __xxx.component.ts__ file, between JSDoc comments can be a little short.
+A comment description in **xxx.component.ts** file, between JSDoc comments can be a little short.
 
-Compodoc search for a default __xxx.component.md__ file inside the root folder of each component, and add it inside a tab in the component page. It is the same for class, module etc.
+Compodoc search for a default **xxx.component.md** file inside the root folder of each component, and add it inside a tab in the component page. It is the same for class, module etc.
 
 ```
 └── my-component/
@@ -53,12 +56,13 @@ Compodoc search for a default __xxx.component.md__ file inside the root folder o
 ```
 
 <a id="additional-documentation"></a>
+
 # Additional documentation
 
 Compodoc support the addition of external markdown files for extending the code comments of your application and the main README file.
 
-Create a folder containing markdown files and use ```--includes``` flag to extend the documentation.
-Your folder should contain a __summary.json__ file explaining the structure and files :
+Create a folder containing markdown files and use `--includes` flag to extend the documentation.
+Your folder should contain a **summary.json** file explaining the structure and files :
 
 ```
 summary.json
@@ -84,6 +88,7 @@ summary.json
 Links are supported like regular markdown links.
 
 <a id="documentation-of-several-apps-in-a-monorepository"></a>
+
 # Documentation of several apps in a monorepository
 
 [Nrwl Extensions for Angular](https://github.com/nrwl/nx) is a toolkit for enterprise Angular applications. It provides an opinionated approach to application project structure and patterns.
@@ -95,7 +100,7 @@ A monorepository with multiple apps could easily be documentated by Compodoc. Yo
 ├── apps
 │   ├── demo
 │   │   └── src
-│   │       └── tsconfig.app.json
+│   │       └── tsconfig.doc.json
 │   ├── profile
 │   ├── school
 │   └── teach
@@ -106,32 +111,35 @@ Just run Compodoc like that :
 
 ```bash
 cd apps/demo/src
-compodoc -p tsconfig.app.json -s
+compodoc -p tsconfig.doc.json -s
 
 // or
 
-compodoc -p apps/demo/src/tsconfig.app.json -s
+compodoc -p apps/demo/src/tsconfig.doc.json -s
 ```
 
 <a id="syntax-highlighting-in-markdown-files"></a>
+
 # Syntax highlighting in markdown files
 
 Compodoc use [Marked](https://github.com/chjj/marked) for markdown parsing and compiling to html. [prismjs.js](http://prismjs.com/) has been added for supporting syntax highlighting.
 
 Just use a normal code block in your markdown with correct language : [Github help](https://help.github.com/articles/creating-and-highlighting-code-blocks/)
 
-The integrated languages are : __json, bash, javascript, markdown, html, scss, typescript__
+The integrated languages are : **json, bash, javascript, markdown, html, scss, typescript**
 
 <a id="excluding-files"></a>
+
 # Excluding files
 
-For excluding files from the documentation, simply use the __exclude__ property of [__tsconfig.json__](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) file.
+For excluding files from the documentation, simply use the **exclude** property of [**tsconfig.json**](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) file.
 
-You can exclude specific file with name ```app/myfile.ts``` or with glob pattern ```**/*.spec.ts```.
+You can exclude specific file with name `app/myfile.ts` or with glob pattern `**/*.spec.ts`.
 
 <a id="including-files"></a>
+
 # Including files
 
-For including files from the documentation, simply use the __include__ property of [__tsconfig.json__](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) file.
+For including files from the documentation, simply use the **include** property of [**tsconfig.json**](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) file.
 
-You can include specific file with name ```app/myfile.ts``` or with glob pattern ```**/*.ts```.
+You can include specific file with name `app/myfile.ts` or with glob pattern `**/*.ts`.
