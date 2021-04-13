@@ -8,7 +8,7 @@
 <li><a href="#including-files">Including files</a></li>
 </ul>
 <p><a id="styling-the-documentation"></a></p>
-<h1>Styling the documentation</h1><pre><code>compodoc -p src/tsconfig.json -y your_theme_styles/</code></pre><p>Inside your folder you need to provide at least a style.css file with these 7 imports as below.</p>
+<h1>Styling the documentation</h1><pre><code>compodoc -p tsconfig.doc.json -y your_theme_styles/</code></pre><p>Inside your folder you need to provide at least a style.css file with these 7 imports as below.</p>
 <pre><code>@import &quot;./reset.css&quot;;
 @import &quot;./bootstrap.min.css&quot;;
 @import &quot;./bootstrap-card.css&quot;;
@@ -56,17 +56,17 @@ Your folder should contain a <strong>summary.json</strong> file explaining the s
 ├── apps
 │   ├── demo
 │   │   └── src
-│   │       └── tsconfig.app.json
+│   │       └── tsconfig.doc.json
 │   ├── profile
 │   ├── school
 │   └── teach
 └── README.md</code></pre><p>Just run Compodoc like that :</p>
 <pre><code class="language-bash">cd apps/demo/src
-compodoc -p tsconfig.app.json -s
+compodoc -p tsconfig.doc.json -s
 
 // or
 
-compodoc -p apps/demo/src/tsconfig.app.json -s</code></pre>
+compodoc -p apps/demo/src/tsconfig.doc.json -s</code></pre>
 <p><a id="syntax-highlighting-in-markdown-files"></a></p>
 <h1>Syntax highlighting in markdown files</h1><p>Compodoc use <a href="https://github.com/chjj/marked">Marked</a> for markdown parsing and compiling to html. <a href="http://prismjs.com/">prismjs.js</a> has been added for supporting syntax highlighting.</p>
 <p>Just use a normal code block in your markdown with correct language : <a href="https://help.github.com/articles/creating-and-highlighting-code-blocks/">Github help</a></p>

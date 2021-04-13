@@ -2,16 +2,16 @@
 <p>Compodoc will search files like : .compodocrc, .compodocrc.json, .compodocrc.yaml or a compodoc property in your package.json</p>
 <p>A JSON schema is available here : <code>./node_modules/@compodoc/compodoc/src/config/schema.json</code></p>
 <h1>Options, quotes and Windows usage</h1><p>Keep in mind that using options with multiple words need quotes around your sentence.</p>
-<pre><code class="language-bash">compodoc -p src/tsconfig.json -n &#39;My app documentation&#39;</code></pre>
+<pre><code class="language-bash">compodoc -p tsconfig.doc.json -n &#39;My app documentation&#39;</code></pre>
 <p>Using npm scripts, the command is hosted in package.json file. Don&#39;t forget to escape with double quotes for Windows systems. (with npm 6.x)</p>
 <pre><code class="language-bash">{
    ...
-   &quot;doc&quot;: &quot;npx compodoc -p tsconfig.app.json -n \&quot;My app documentation\&quot; src&quot;
+   &quot;doc&quot;: &quot;npx compodoc -p tsconfig.doc.json -n \&quot;My app documentation\&quot;&quot;
    ...
 }</code></pre>
 <h1>Render documentation</h1><p>Documentation is generated in default output folder, then run your HTTP server in that folder.</p>
-<pre><code class="language-bash">compodoc -p src/tsconfig.json</code></pre>
-<h1>Render documentation while providing source folder</h1><pre><code class="language-bash">compodoc src -p src/tsconfig.json</code></pre>
+<pre><code class="language-bash">compodoc -p tsconfig.doc.json</code></pre>
+<h1>Render documentation while providing source folder</h1><pre><code class="language-bash">compodoc src -p tsconfig.doc.json</code></pre>
 <h1>Serve generated documentation with compodoc</h1><p>Documentation was generated in default output folder or a specific one, the local HTTP server is launched at <a href="http://localhost:8080">http://localhost:8080</a></p>
 <pre><code class="language-bash">compodoc -s
 
@@ -19,4 +19,4 @@ or
 
 compodoc -s -d ./doc</code></pre>
 <h1>Render documentation, and serve it with compodoc</h1><p>Documentation is generated in default output folder, and a local HTTP server is available at <a href="http://localhost:8080">http://localhost:8080</a></p>
-<pre><code class="language-bash">compodoc -p src/tsconfig.json -s</code></pre>
+<pre><code class="language-bash">compodoc -p tsconfig.doc.json -s</code></pre>

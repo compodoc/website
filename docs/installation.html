@@ -6,9 +6,13 @@
 <p>If you use PowerShell on Windows, add quotes :</p>
 <pre><code class="language-bash">npm install -g &quot;@compodoc/compodoc&quot;</code></pre>
 <h1>Local installation</h1><pre><code class="language-bash">npm install --save-dev @compodoc/compodoc</code></pre>
-<h1>Run</h1><p>Define a script task for it in your package.json (with npm 6.x) :</p>
+<h1>Run</h1><p>Create a file named <code>tsconfig.doc.json</code>, containing a key <code>include</code> pointing to <code>src</code> folder, you can also use <code>exclude</code> key :</p>
+<pre><code>{
+  &quot;include&quot;: [&quot;src/**/*.ts&quot;],
+  &quot;exclude&quot;: [&quot;src/test.ts&quot;, &quot;src/**/*.spec.ts&quot;, &quot;src/app/file-to-exclude.ts&quot;]
+}</code></pre><p>Define a script task for it in your package.json (with npm 6.x) :</p>
 <pre><code class="language-bash">&quot;scripts&quot;: {
-  &quot;compodoc&quot;: &quot;npx compodoc -p tsconfig.app.json src&quot;
+  &quot;compodoc&quot;: &quot;npx compodoc -p tsconfig.doc.json&quot;
 }</code></pre>
 <p>and run it like a normal npm script :</p>
 <pre><code class="language-bash">npm run compodoc</code></pre>
@@ -25,4 +29,5 @@
 │ ├── main.ts
 │ └── ...
 ├── tsconfig.app.json
-└── tsconfig.json</code></pre><pre><code class="language-bash">compodoc -p tsconfig.app.json src</code></pre>
+├── tsconfig.doc.json
+└── tsconfig.json</code></pre>
