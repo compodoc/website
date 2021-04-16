@@ -1,12 +1,13 @@
 @import 'theme';
 @import 'prism';
 
-.mdl-layout--fixed-drawer.is-upgraded:not(.is-small-screen)>.mdl-layout__header {
-    margin-left: 0;
+.mdl-layout--fixed-drawer.is-upgraded:not(.is-small-screen)
+    > .mdl-layout__header {
+    margin-left: 0 !important;
     width: 100%;
 }
 
-.mdl-layout--fixed-drawer>.mdl-layout__header .mdl-layout__header-row {
+.mdl-layout--fixed-drawer > .mdl-layout__header .mdl-layout__header-row {
     $header-logo-padding: 25px;
     padding-left: $header-logo-padding;
     padding-right: 0;
@@ -14,13 +15,13 @@
 
 .mdl-layout__drawer {
     margin-top: 65px;
-    height: calc(100% - 65px)
+    height: calc(100% - 65px);
 }
 
 @media (max-width: 1024px) {
     .mdl-layout__drawer {
         margin-top: 0;
-        height: 100%
+        height: 100%;
     }
 }
 
@@ -39,9 +40,9 @@
 }
 
 .selected {
-    background-color: #E0E0E0;
+    background-color: #e0e0e0;
     color: #235aaa !important;
-    font-weight: 600
+    font-weight: 600;
 }
 
 .mdl-layout__drawer .mdl-navigation__link {
@@ -78,7 +79,7 @@
 }
 
 .mdl-layout__drawer .mdl-navigation {
-    padding-top: 0
+    padding-top: 0;
 }
 
 @media (max-width: 1024px) {
@@ -121,18 +122,18 @@
     margin-top: 8px;
 }
 
-.mdl-layout__drawer>.mdl-layout-title {
-    background-color: #ECEFF1;
+.mdl-layout__drawer > .mdl-layout-title {
+    background-color: #eceff1;
     font-weight: 500;
-    opacity: .87;
-    text-transform: uppercase
+    opacity: 0.87;
+    text-transform: uppercase;
 }
 
 .mdl-layout__title,
 .mdl-layout-title {
     font-size: 16px;
     line-height: 28px;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
 }
 
 .hero-background {
@@ -144,15 +145,15 @@
 .hero-background h4 {
     font-weight: 300;
     margin: 40px 0;
-    padding-left: 48px
+    padding-left: 48px;
 }
 
 .mdl-grid {
     align-items: center;
 }
 
-.mdl-grid--no-spacing>.mdl-cell {
-    width: auto
+.mdl-grid--no-spacing > .mdl-cell {
+    width: auto;
 }
 
 .mdl-layout__content {
@@ -170,19 +171,19 @@
 .markdown-doc h1 {
     font-size: 24px;
     font-weight: 500;
-    opacity: .87
+    opacity: 0.87;
 }
 
 .markdown-doc h2 {
     font-size: 18px;
     font-weight: 500;
-    opacity: .87
+    opacity: 0.87;
 }
 
 .markdown-doc p {
     font-size: 16px;
     line-height: 30px;
-    opacity: .87
+    opacity: 0.87;
 }
 
 .markdown-doc pre {
@@ -190,18 +191,18 @@
     border-left: 4px solid $primary-color;
     margin-bottom: 30px;
     padding: 30px 40px;
-    overflow-x: scroll
+    overflow-x: scroll;
 }
 
 .markdown-doc pre,
 .markdown-doc code {
     overflow-x: scroll;
-    background-color: #f5f6f7
+    background-color: #f5f6f7;
 }
 
 .markdown-doc a {
     color: $primary-color;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .markdown-doc table td {
@@ -212,11 +213,11 @@
     .hero-background h4 {
         font-size: 20px;
         margin: 10px 0 10px 30px;
-        padding-left: 24px
+        padding-left: 24px;
     }
 
     .site-header {
-        margin-left: 32px
+        margin-left: 32px;
     }
 }
 
@@ -228,11 +229,10 @@
         top: 0;
         width: 100%;
 
-
         @media screen and (min-width: 1024px) {
-            .mdl-layout--fixed-drawer>.mdl-layout__drawer {
+            .mdl-layout--fixed-drawer > .mdl-layout__drawer {
                 -webkit-transform: translateX(0);
-                transform: translateX(0)
+                transform: translateX(0);
             }
         }
 
@@ -261,7 +261,7 @@
         }
     }
 
-    input:checked+.top-nav-wrapper {
+    input:checked + .top-nav-wrapper {
         label {
             background: $secondary-color;
         }
@@ -282,7 +282,14 @@
     transform: translateX(-315px);
 }
 
-.mdl-layout--fixed-drawer>.mdl-layout__content,
+.mdl-layout--fixed-drawer > .mdl-layout__content,
 .mdl-layout__content {
-    margin-left: 315px;
+    margin-left: 0;
+}
+
+@media (min-width: 1025px) {
+    .mdl-layout--fixed-drawer > .mdl-layout__content,
+    .mdl-layout__content {
+        margin-left: 315px;
+    }
 }

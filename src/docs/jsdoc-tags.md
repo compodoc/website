@@ -2,7 +2,7 @@
 
 Currently Compodoc only support these JSDoc tags (due to [TypeScript compiler limitations](https://github.com/Microsoft/TypeScript/wiki/JSDoc-support-in-JavaScript)) :
 
-- ```@returns {Type} Description```
+-   `@returns {Type} Description`
 
 ```js
 /**
@@ -12,11 +12,11 @@ Currently Compodoc only support these JSDoc tags (due to [TypeScript compiler li
 function processTarget(target:string):number;
 ```
 
-- ```@ignore```
+-   `@ignore`, `@internal`
 
-The @ignore tag indicates that a symbol in your code should never appear in the documentation.
+These tags indicate that a symbol in your code should never appear in the documentation.
 
-It works inside a class, component or injectable, but also for the entire component.
+`@ignore` works inside a class, component or injectable, but also for the entire component.
 
 ```js
 /**
@@ -25,7 +25,7 @@ It works inside a class, component or injectable, but also for the entire compon
 @Component({
     selector: 'app-root',
     templateUrl: './app.component.html',
-    styleUrls: ['./app.component.css']
+    styleUrls: ['./app.component.css'],
 })
 export class AppComponent {}
 ```
@@ -37,7 +37,7 @@ export class AppComponent {}
 @Component({
     selector: 'the-footer',
     templateUrl: './footer.component.html',
-    styleUrls: ['./footer.component.css']
+    styleUrls: ['./footer.component.css'],
 })
 export class FooterComponent {
     /**
@@ -62,7 +62,7 @@ export class FooterComponent {
 }
 ```
 
-- ```@param {Type} Name Description```
+-   `@param {Type} Name Description`
 
 ```js
 /**
@@ -76,7 +76,7 @@ export class FooterComponent {
 function processTarget(target:string):number;
 ```
 
-- ```@link``` : you can use these three syntax like JSDoc:
+-   `@link` : you can use these three syntax like JSDoc:
 
 ```js
 //for an internal reference
@@ -94,9 +94,9 @@ Anchors are supported : [Todo]{@link Todo#myproperty}
 {@link https://github.com GitHub}
 ```
 
-- ```@example``` : for giving an example on directives, components and pipes decorators, use @example or markdown :
+-   `@example` : for giving an example on directives, components and pipes decorators, use @example or markdown :
 
-__INDENTATION WARNING__ : TypeScript has an internal margin for new lines, if you want to keep a level of indentation, put a minimum of 13 space characters like in the next example.
+**INDENTATION WARNING** : TypeScript has an internal margin for new lines, if you want to keep a level of indentation, put a minimum of 13 space characters like in the next example.
 
 ```js
 /**
@@ -110,13 +110,13 @@ __INDENTATION WARNING__ : TypeScript has an internal margin for new lines, if yo
  * `` `
  */
 
- /**
-  * Shows all events on a given day. Example usage:
-  *
-  * @example
-  * <mwl-calendar-day-view
-  *             [viewDate]="viewDate"
-  *             [events]="events">
-  * </mwl-calendar-day-view>
-  */
+/**
+ * Shows all events on a given day. Example usage:
+ *
+ * @example
+ * <mwl-calendar-day-view
+ *             [viewDate]="viewDate"
+ *             [events]="events">
+ * </mwl-calendar-day-view>
+ */
 ```

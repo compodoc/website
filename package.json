@@ -2,6 +2,7 @@
     "name": "compodoc-website",
     "version": "1.0.0",
     "scripts": {
+        "start": "harp server src",
         "build": "./node_modules/.bin/harp compile src documentation"
     },
     "repository": {
