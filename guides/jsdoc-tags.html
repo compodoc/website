@@ -136,17 +136,17 @@
  */
 function processTarget(target:string):number;</code></pre>
 <ul>
-<li><code>@ignore</code></li>
+<li><code>@ignore</code>, <code>@internal</code></li>
 </ul>
-<p>The @ignore tag indicates that a symbol in your code should never appear in the documentation.</p>
-<p>It works inside a class, component or injectable, but also for the entire component.</p>
+<p>These tags indicate that a symbol in your code should never appear in the documentation.</p>
+<p><code>@ignore</code> works inside a class, component or injectable, but also for the entire component.</p>
 <pre><code class="language-js">/**
  * @ignore
  */
 @Component({
     selector: &#39;app-root&#39;,
     templateUrl: &#39;./app.component.html&#39;,
-    styleUrls: [&#39;./app.component.css&#39;]
+    styleUrls: [&#39;./app.component.css&#39;],
 })
 export class AppComponent {}</code></pre>
 <pre><code class="language-js">/**
@@ -155,7 +155,7 @@ export class AppComponent {}</code></pre>
 @Component({
     selector: &#39;the-footer&#39;,
     templateUrl: &#39;./footer.component.html&#39;,
-    styleUrls: [&#39;./footer.component.css&#39;]
+    styleUrls: [&#39;./footer.component.css&#39;],
 })
 export class FooterComponent {
     /**
@@ -221,15 +221,15 @@ Anchors are supported : [Todo]{@link Todo#myproperty}
  * `` `
  */
 
- /**
-  * Shows all events on a given day. Example usage:
-  *
-  * @example
-  * &lt;mwl-calendar-day-view
-  *             [viewDate]=&quot;viewDate&quot;
-  *             [events]=&quot;events&quot;&gt;
-  * &lt;/mwl-calendar-day-view&gt;
-  */</code></pre>
+/**
+ * Shows all events on a given day. Example usage:
+ *
+ * @example
+ * &lt;mwl-calendar-day-view
+ *             [viewDate]=&quot;viewDate&quot;
+ *             [events]=&quot;events&quot;&gt;
+ * &lt;/mwl-calendar-day-view&gt;
+ */</code></pre>
 
         </div>
         <footer>
