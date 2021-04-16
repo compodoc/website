@@ -2,7 +2,7 @@
 
 Live demos are available :
 
--   [Angular](https://compodoc.github.io/compodoc-demo-todomvc-angular/).
+-   [Angular](https://compodoc.github.io/compodoc-demo-todomvc-angular/)
 
 It is the documentation generated for this demo project which is a simple [TodoMVC application](https://github.com/compodoc/compodoc-demo-todomvc-angular).
 
