@@ -1,5 +1,13 @@
 <h1>JSDoc tags</h1><p>Currently Compodoc only support these JSDoc tags (due to <a href="https://github.com/Microsoft/TypeScript/wiki/JSDoc-support-in-JavaScript">TypeScript compiler limitations</a>) :</p>
 <ul>
+<li><code>@deprecated Deprecated description</code></li>
+</ul>
+<pre><code class="language-js">/**
+ * This is my class
+ * @deprecated This class is deprecated
+ */
+class MyClass {}</code></pre>
+<ul>
 <li><code>@returns {Type} Description</code></li>
 </ul>
 <pre><code class="language-js">/**
