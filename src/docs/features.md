@@ -21,3 +21,5 @@
 -   **Documentation coverage** - Get the documentation coverage report of your project
 
 -   **Angular-CLI friendly** - Compodoc support out of the box Angular-CLI projects
+
+-   **Dark mode** - Compodoc support out of the box Dark mode of your web browser
