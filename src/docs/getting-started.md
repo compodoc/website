@@ -34,4 +34,4 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 
 [support-url]: https://opencollective.com/compodoc#support
 [backers-image]: https://opencollective.com/compodoc/backers.svg
-[sponsors-image]: https://opencollective.com/compodoc/sponsors.svg
+[sponsors-image]: https://opencollective.com/compodoc/sponsor.svg
