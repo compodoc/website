@@ -10,12 +10,6 @@ Just run Compodoc in a fresh or existing project.
 
 # Global installation
 
-Install with Angular CLI : npm scripts + special tsconfig.doc.json file will be created.
-
-```bash
-ng add @compodoc/compodoc
-```
-
 Install from npm :
 
 ```bash
@@ -29,6 +23,14 @@ npm install -g "@compodoc/compodoc"
 ```
 
 # Local installation
+
+Install with Angular CLI : npm scripts + special tsconfig.doc.json file will be created.
+
+```bash
+ng add @compodoc/compodoc
+```
+
+or directly
 
 ```bash
 npm install --save-dev @compodoc/compodoc
