@@ -4,11 +4,17 @@ Compodoc is tested with only LTS versions : v12.x, v14.x
 
 # Angular-CLI
 
-Compodoc supports last Angular-CLI version : 12.x
+Compodoc supports last Angular-CLI version : 13.x
 
 Just run Compodoc in a fresh or existing project.
 
 # Global installation
+
+Install with Angular CLI : npm scripts + special tsconfig.doc.json file will be created.
+
+```bash
+ng add @compodoc/compodoc
+```
 
 Install from npm :
 
