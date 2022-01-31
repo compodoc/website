@@ -91,7 +91,7 @@ Links are supported like regular markdown links.
 
 # Documentation of several apps in a monorepository
 
-[Nrwl Extensions for Angular](https://github.com/nrwl/nx) is a toolkit for enterprise Angular applications. It provides an opinionated approach to application project structure and patterns.
+[Nx](https://github.com/nrwl/nx) is an open source, smart, fast and extensible build system. It follows an approach where potentially multiple apps and libs can live in the same workspace (aka "monorepo").
 
 A monorepository with multiple apps could easily be documentated by Compodoc. You just have to run Compodoc in each apps seperately. Here is an example with [nx-examples](https://github.com/nrwl/nx-examples) :
 
