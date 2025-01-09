@@ -8,6 +8,10 @@ Compodoc helps Angular developers providing a clear and helpful documentation of
 
 Others developers of your team, or internet visitors for a public documentation, can easily understand the features of your application or library.
 
+# Version support
+
+Dated january 2025, Compodoc is compatible with Angular 19 and standalone components, with limitations on routing support. There is a work in progress to support standalone components routing for graph generation.
+
 # Open Source
 
 Compodoc is an open source effort from [Vincent Ogloblinsky](http://www.vincentogloblinsky.com).
