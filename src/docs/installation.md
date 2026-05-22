@@ -1,10 +1,10 @@
 # Node.js versions
 
-Dated january 2025, Compodoc is tested and compatible with only last [active versions](https://nodejs.dev/fr/about/releases/) of Node.js (see this [link](https://angular.io/guide/versions) for more information) : v16.x, v18.x, v20.x
+Dated may 2026, Compodoc is tested and compatible with only last [active versions](https://nodejs.dev/fr/about/releases/) of Node.js (see this [link](https://angular.dev/reference/versions) for more information) : v20.x, v22.x and v24.x.
 
 # Angular-CLI
 
-Dated january 2025, Compodoc supports last Angular-CLI version : 19.x
+Dated may 2026, Compodoc supports last Angular-CLI version : 19.x
 
 Just run Compodoc in a fresh or existing project.
 
