@@ -8,9 +8,13 @@ Compodoc helps Angular developers providing a clear and helpful documentation of
 
 Others developers of your team, or internet visitors for a public documentation, can easily understand the features of your application or library.
 
-# Version support
+# Angular versions support
 
-Dated january 2025, Compodoc is compatible with Angular 19 and standalone components, with limitations on routing support. There is a work in progress to support standalone components routing for graph generation.
+Dated june 2026, Compodoc is compatible with Angular 22 and standalone components.
+
+# Angular-CLI versions support
+
+Dated june 2026, Compodoc supports last Angular-CLI version : 22.x
 
 # Open Source
 
