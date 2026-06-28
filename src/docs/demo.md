@@ -2,15 +2,15 @@
 
 Live demos are available :
 
--   [Angular](https://compodoc.github.io/compodoc-demo-todomvc-angular/)
+- [Angular](https://compodoc.github.io/compodoc-demo-todomvc-angular-standalone/)
 
 It is the documentation generated for this demo project which is a simple [TodoMVC application](https://github.com/compodoc/compodoc-demo-todomvc-angular).
 
--   [Nest](https://compodoc.github.io/compodoc-demo-nestjs/)
+- [Nest](https://compodoc.github.io/compodoc-demo-nestjs/)
 
 It is the documentation generated for this demo project which is a [RealWorld example app](https://github.com/compodoc/compodoc-demo-nestjs).
 
--   [Stencil](https://compodoc.github.io/compodoc-demo-stencil/)
+- [Stencil](https://compodoc.github.io/compodoc-demo-stencil/)
 
 It is the documentation generated for this demo project which is a [Stencil example app](https://github.com/compodoc/compodoc-demo-stencil).
 
